@@ -1,1295 +1,1559 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-
-  <!-- Basic Page Needs
+    <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
-  <title>Husbandry</title>
-  <!-- Mobile Specific Metas
+    <meta charset="utf-8">
+    <title>Husbandry</title>
+    <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- FONT
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-
-  <!-- CSS
+    <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/styles.css">
-
-
-  <!-- Favicon
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/faviconHusbandry.png">
-
+    <link rel="icon" type="image/png" href="images/faviconHusbandry.png">
 </head>
+
 <body>
-
-  <!-- Primary Page Layout
+    <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div id="mainScrollContainer" class="container">
-    <div class="row mainPageRow clearfix">
-      <div id="masterHeading" class="masterHeadingContainer twelve columns">
-        <div class="headingContainer twelve columns">
-          <div class="eight columns">
-            <img src="images/Husbandry_LOGO-01.png" style="cursor:pointer;" onmousedown="newsClick()" id="mainLogo" onmouseover="this.src='images/Husbandry_LOGO-HOVER-01.png'" onmouseout="this.src='images/Husbandry_LOGO-01.png'">
-          </div>
-          <div class="navCockContainer one cloumn">
-            <img id="navCock" src="images/knife.png" />
-          </div>
-        </div>
-        <div class="twelve columns secondHeadingContainer">
-          <div class="twelve columns navItemsContainer">
-            <ul class="navItems">
-              <li><a onmousedown="newsClick()" href="#">News</a></li>
-              <li><a onmousedown="musicClick()" href="#">Music</a></li>
-              <li><a onmousedown="aboutClick()" href="#">About</a></li>
-              <li><a onmousedown="showsClick()" href="#">Live</a></li>
-              <li><a onmousedown="contactClick()" href="#">Contact</a></li>
-              <li><a onmousedown="storeClick()" href="#">Store</a></li>
-              <li><a target="_blank" href="https://play.spotify.com/artist/5VyBolme1vq3dNDoF9MVIH"><img class="iconsNavClass" src="images/icon_spotify.jpg"></a></li>
-              <li><a target="_blank" href="http://husbandryny.bandcamp.com/"><img class="iconsNavClass" src="images/icon_bc.jpg"></a></li>
-              <li><a target="_blank" href="https://www.youtube.com/channel/UCRJemHTn6dNiuOOwpKRIieQ"><img class="iconsNavClass" src="images/icon_youtube.jpg"></a></li>
-              <li><a target="_blank" href="https://twitter.com/husbandrynyc"><img class="iconsNavClass" src="images/icon_twit.jpg"></a></li>
-              <li><a target="_blank" href="https://instagram.com/husbandrynyc/"><img class="iconsNavClass" src="images/icon_instagram.jpg"></a></li>
-              <li><a target="_blank" href="https://www.facebook.com/husbandrynyc?fref=nf"><img class="iconsNavClass" src="images/icon_fb.jpg"></a></li>
-
-
-            </ul>
-          </div>
-        </div>
-      </div>
-
-  <!-- Main Nav ^       ↓ Show Widget
+    <div id="mainScrollContainer" class="container">
+        <div class="row mainPageRow clearfix">
+            <div id="masterHeading" class="masterHeadingContainer twelve columns">
+                <div class="headingContainer twelve columns">
+                    <div class="eight columns">
+                        <img src="images/Husbandry_LOGO-01.png" style="cursor:pointer;" onmousedown="newsClick()" id="mainLogo" onmouseover="this.src='images/Husbandry_LOGO-HOVER-01.png'" onmouseout="this.src='images/Husbandry_LOGO-01.png'">
+                    </div>
+                    <div class="navCockContainer one cloumn">
+                        <img id="navCock" src="images/knife.png" />
+                    </div>
+                </div>
+                <div class="twelve columns secondHeadingContainer">
+                    <div class="twelve columns navItemsContainer">
+                        <ul class="navItems">
+                            <li><a onmousedown="newsClick()" href="#">News</a></li>
+                            <li><a onmousedown="musicClick()" href="#">Music</a></li>
+                            <li><a onmousedown="aboutClick()" href="#">About</a></li>
+                            <li><a onmousedown="showsClick()" href="#">Live</a></li>
+                            <li><a onmousedown="contactClick()" href="#">Contact</a></li>
+                            <li><a onmousedown="storeClick()" href="#">Store</a></li>
+                            <li><a target="_blank" href="https://play.spotify.com/artist/5VyBolme1vq3dNDoF9MVIH"><img class="iconsNavClass" src="images/icon_spotify.jpg"></a></li>
+                            <li><a target="_blank" href="http://husbandryny.bandcamp.com/"><img class="iconsNavClass" src="images/icon_bc.jpg"></a></li>
+                            <li><a target="_blank" href="https://www.youtube.com/channel/UCRJemHTn6dNiuOOwpKRIieQ"><img class="iconsNavClass" src="images/icon_youtube.jpg"></a></li>
+                            <li><a target="_blank" href="https://twitter.com/husbandrynyc"><img class="iconsNavClass" src="images/icon_twit.jpg"></a></li>
+                            <li><a target="_blank" href="https://instagram.com/husbandrynyc/"><img class="iconsNavClass" src="images/icon_instagram.jpg"></a></li>
+                            <li><a target="_blank" href="https://www.facebook.com/husbandrynyc?fref=nf"><img class="iconsNavClass" src="images/icon_fb.jpg"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Main Nav ^       ↓ Show Widget
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-
-
-      <div id="secondaryHeading" class="showsWidget four columns floatR">
-        <div class="showContentHeadingContainer">
-          <h5 class="mainHeading">Upcoming Shows</h5>
-        </div>
-
-        <div class="show">
-          <ul>
-            <li class="showAttr">
-              9.30.17
-            </li>
-
-            <li class="showAttr">
-              <span class="highlight"><a href="https://www.facebook.com/events/1957166704564398/">The Well</a>
-            </li>
-
-            <li class="showAttr">
-              Brooklyn, NY
-            </li>
-          </ul>
-        </div>    
-
-              
-
-        </div>
-
-  <!-- Show Widget ^       ↓ News Body
+            <div id="secondaryHeading" class="showsWidget four columns floatR">
+                <div class="showContentHeadingContainer">
+                    <h5 class="mainHeading">Upcoming Shows</h5>
+                </div>
+                <div class="show">
+                    <ul>
+                        <li class="showAttr">
+                            9.30.17
+                        </li>
+                        <li class="showAttr">
+                            <span class="highlight"><a href="https://www.facebook.com/events/1957166704564398/">The Well</a></span>
+                        </li>
+                        <li class="showAttr">
+                            Brooklyn, NY
+                        </li>
+                    </ul>
+                </div>
+                <div class="show">
+                    <ul>
+                        <li class="showAttr">
+                            10.20.17
+                        </li>
+                        <li class="showAttr">
+                            <span class="highlight">The Well</span>
+                        </li>
+                        <li class="showAttr">
+                            Brooklyn, NY
+                        </li>
+                    </ul>
+                </div>
+                <div class="show">
+                    <ul>
+                        <li class="showAttr">
+                            10.21.17
+                        </li>
+                        <li class="showAttr">
+                            <span class="highlight"><a href="https://www.facebook.com/events/651555911710052/">13th Floor Music Lounge</a></span>
+                        </li>
+                        <li class="showAttr">
+                            Florence, MA
+                        </li>
+                    </ul>
+                </div>
+                <div class="show">
+                    <ul>
+                        <li class="showAttr">
+                            10.22.17
+                        </li>
+                        <li class="showAttr">
+                            <span class="highlight"><a href="https://www.facebook.com/events/2354192504805818/">Middle East Upstairs</a></span>
+                        </li>
+                        <li class="showAttr">
+                            Boston, MA
+                        </li>
+                    </ul>
+                </div>
+                <div class="show">
+                    <ul>
+                        <li class="showAttr">
+                            10.30.17
+                        </li>
+                        <li class="showAttr">
+                            <span class="highlight"><a href="https://www.facebook.com/events/1784068004967237/">Saint Vitus</a></span>
+                        </li>
+                        <li class="showAttr">
+                            Brooklyn, NY
+                        </li>
+                    </ul>
+                </div>
+                <!-- <div class="show">
+                    <ul>
+                        <li class="showAttr">
+                            11.1.17
+                        </li>
+                        <li class="showAttr">
+                            <span class="highlight"><a href="https://www.facebook.com/events/197428514130481/">Voltage Lounge</a></span>
+                        </li>
+                        <li class="showAttr">
+                            Philadelphia, PA
+                        </li>
+                    </ul>
+                </div>
+                <div class="show">
+                    <ul>
+                        <li class="showAttr">
+                            11.2.17
+                        </li>
+                        <li class="showAttr">
+                            <span class="highlight"><a href="https://www.facebook.com/events/1752038618423696/">The Foundry</a></span>
+                        </li>
+                        <li class="showAttr">
+                            Cleveland, OH
+                        </li>
+                    </ul>
+                </div>
+                <div class="show">
+                    <ul>
+                        <li class="showAttr">
+                            11.3.17
+                        </li>
+                        <li class="showAttr">
+                            <span class="highlight">Reggie's</span>
+                        </li>
+                        <li class="showAttr">
+                            Chicago, IL
+                        </li>
+                    </ul>
+                </div>
+                <div class="show">
+                    <ul>
+                        <li class="showAttr">
+                            11.4.17
+                        </li>
+                        <li class="showAttr">
+                            <span class="highlight">Riot Room</span>
+                        </li>
+                        <li class="showAttr">
+                            Kansas City, MO
+                        </li>
+                    </ul>
+                </div>
+                <div class="show">
+                    <ul>
+                        <li class="showAttr">
+                            11.5.17
+                        </li>
+                        <li class="showAttr">
+                            <span class="highlight"><a href="https://www.facebook.com/events/129714960999347/">Moon Room</a></span>
+                        </li>
+                        <li class="showAttr">
+                            Denver, CO
+                        </li>
+                    </ul>
+                </div>
+                <div class="show">
+                    <ul>
+                        <li class="showAttr">
+                            11.7.17
+                        </li>
+                        <li class="showAttr">
+                            <span class="highlight"><a href="https://www.facebook.com/events/1664530743629592/">Viper Room</a></span>
+                        </li>
+                        <li class="showAttr">
+                            Los Angeles, CA
+                        </li>
+                    </ul>
+                </div>
+                <div class="show">
+                    <ul>
+                        <li class="showAttr">
+                            11.8.17
+                        </li>
+                        <li class="showAttr">
+                            <span class="highlight">Nile Underground</span>
+                        </li>
+                        <li class="showAttr">
+                            Mesa, AZ
+                        </li>
+                    </ul>
+                </div>
+                <div class="show">
+                    <ul>
+                        <li class="showAttr">
+                            11.10.17
+                        </li>
+                        <li class="showAttr">
+                            <span class="highlight"><a href="https://www.facebook.com/events/116070342438186/">Come and Take it Live</a></span>
+                        </li>
+                        <li class="showAttr">
+                            Austin, TX
+                        </li>
+                    </ul>
+                </div>
+                <div class="show">
+                    <ul>
+                        <li class="showAttr">
+                            11.11.17
+                        </li>
+                        <li class="showAttr">
+                            <span class="highlight"><a href="https://www.facebook.com/events/381491555601851/">Alamo Music Hall</a></span>
+                        </li>
+                        <li class="showAttr">
+                            San Antonio, TX
+                        </li>
+                    </ul>
+                </div>
+                <div class="show">
+                    <ul>
+                        <li class="showAttr">
+                            11.13.17
+                        </li>
+                        <li class="showAttr">
+                            <span class="highlight">The End</span>
+                        </li>
+                    </ul>
+                    <li class="showAttr">
+                        Nashville, TN
+                    </li>
+                    </ul>
+                </div>
+                <div class="show">
+                    <ul>
+                        <li class="showAttr">
+                            11.14.17
+                        </li>
+                        <li class="showAttr">
+                            <span class="highlight"><a href="https://www.facebook.com/events/2045248928833983/">The Masquerade</a></span>
+                        </li>
+                        <li class="showAttr">
+                            Atlanta, GA
+                        </li>
+                    </ul>
+                </div>
+                <div class="show">
+                    <ul>
+                        <li class="showAttr">
+                            11.15.17
+                        </li>
+                        <li class="showAttr">
+                            <span class="highlight">Local 506</span>
+                        </li>
+                        <li class="showAttr">
+                            Chapel Hill, NC
+                        </li>
+                    </ul>
+                </div>
+                <div class="show">
+                    <ul>
+                        <li class="showAttr">
+                            11.16.17
+                        </li>
+                        <li class="showAttr">
+                            <span class="highlight"><a href="https://www.facebook.com/events/116768882369203/">Amityville Music Hall</a></span>
+                        </li>
+                        <li class="showAttr">
+                            Amityville, NY
+                        </li>
+                    </ul>
+                </div> -->
+            </div>
+            <!-- Show Widget ^       ↓ News Body
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-
-      <div class="mainContentHeadingContainer newsy eight columns all">
-        <h5 class="mainHeading">News</h5>
-      </div>
-
-<div class="mainContentItemsContainer newsy eight columns all">
-        <div class="mainContentItemHeadingContainer">
-          <p class="postAttrDate">
-            1.23.17
-          </p>
-          <h6 class="itemTitle">Banger Alert</h6>
-          <p class="itemText">
-          <img class="itemPhoto" src="images/HUSHFlyer.jpg"/>
-      <br><br>
-      Someone might have to call the Guiness Book of World Records, because this could be the heaviest lineup for a show that's ever happened in Brooklyn. Don't be a doofus, get your tickets ahead of time for this one...though I suppose if you didn't get in, you could hear it from down the block.
-        </div>
-      </div>
-
-<div class="mainContentItemsContainer newsy eight columns all">
-        <div class="mainContentItemHeadingContainer">
-          <p class="postAttrDate">
-            11.22.16
-          </p>
-          <h6 class="itemTitle">Giraffe Tongue Orchestra at Gramercy Theater</h6>
-          <p class="itemText">
-         Just when you thought the world was on its last leg and nothing good would happen for the rest of 2016...we got something to turn your frown right side up again: we have the pleasure of opening for Giraffe Tongue Orchestra - a band made up of some of our musical heroes - at Gramercy Theater in NYC on 12.1. Not to mention, our friends in Netherlands playing right after us as well.  This is going to be a crazy memorable show. Be sure to pick up tickets if you can!
-      
-        </div>
-      </div>
-
-        <div class="mainContentItemsContainer newsy eight columns all">
-        <div class="mainContentItemHeadingContainer">
-          <p class="postAttrDate">
-            10.10.16
-          </p>
-          <h6 class="itemTitle">Candiria 5 Borough World Tour</h6>
-          <p class="itemText">
-          We have the honor this week of playing with the one and only Candiria (and holy shit, Dalek too) at Gold Sounds in Brooklyn this Wednesday, October 12th. Candiria is one of the bands that taught all of us - especially in a band like ours - that genre doesn't mean a fucking thing. Go where the music takes you.
-          <br><br>
-             <img class="itemPhoto" src="images/dalek.jpg"/>
-
-        </div>
-      </div>
-
-  <div class="mainContentItemsContainer newsy eight columns all">
-        <div class="mainContentItemHeadingContainer">
-          <p class="postAttrDate">
-            08.30.16
-          </p>
-          <h6 class="itemTitle">September Tour 2016</h6>
-          <p class="itemText">
-          We're hitting the road for a few dates in the northeast this September. Some highlights include Kingston with Dead Empires on the 16th, Brooklyn with the Caustic Casanova homies on the 28th...oh, and Black Bear Bar on October 12th with the mighty Candiria and Dalek. Yeah, we're stoked too.
-          <br><br>
-             <img class="itemPhoto" src="images/september_2016_tour.jpg"/>
-
-        </div>
-      </div>
-
-   <div class="mainContentItemsContainer newsy eight columns all">
-        <div class="mainContentItemHeadingContainer">
-          <p class="postAttrDate">
-            08.29.16
-          </p>
-          <h6 class="itemTitle">Pit Full of Shit Covers Fera Live</h6>
-          <p class="itemText">
-          Thank you very much to Frank Huang, the man behind the treasure chest of live heavy music videos for coming through to the Sunnyvale release show and filming our entire set - which was Fera in order in its entirety. Check it out!
-          <br><br>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/6ZIy0d1CNBo" frameborder="0" allowfullscreen></iframe>
-
-        </div>
-      </div>
-
- <div class="mainContentItemsContainer newsy eight columns all">
-        <div class="mainContentItemHeadingContainer">
-          <p class="postAttrDate">
-            08.26.16
-          </p>
-          <h6 class="itemTitle">Album Release!</h6>
-          <p class="itemText">
-          Today marks the day the album is officially out! The show last night was nothing short of amazing. Thank you very much to Geometers, Spotlights, and Bangladeafy for ripping with us. All of those bands deserve your time and attention, so go check them out!
-          <br><br>
-          If you haven't picked out a bundle or choice of merch from Aqualamb.org, what are you waiting for? Go check them out, or bump the record wherever you're at...because it's on Spotify, too. Enjoy, share your favorite riffs and songs with us, and spread word of Fera far and wide.
-
-        </div>
-      </div>
-
-   <div class="mainContentItemsContainer newsy eight columns all">
-        <div class="mainContentItemHeadingContainer">
-          <p class="postAttrDate">
-            08.23.16
-          </p>
-          <h6 class="itemTitle">"Nature vs. Nurture" Music Video"</h6>
-          <p class="itemText">
-          This is the second video released for Fera, a song called "Nature vs. Nurture." The video was compiled and edited by Arnau, and premiered by Metal Injection. Sit back, relax, and enjoy this 2:15 clip of the world slowly circling the drain...
-          <br><br>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/3ak8yTEG06U" frameborder="0" allowfullscreen></iframe>
-
-        </div>
-      </div>
-
-      <div class="mainContentItemsContainer newsy eight columns all">
-        <div class="mainContentItemHeadingContainer">
-          <p class="postAttrDate">
-            08.11.16
-          </p>
-          <h6 class="itemTitle">"So Long, Capricornian Crone" Music Video"</h6>
-          <p class="itemText">
-          Here is the video for the first single off of Fera, entitled "So Long Capricornian Crone". Shot, edited, and directed by Thane Lund, with assistance from our own Arnau Bosc.
-          <br><br>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/zJBF3Zpia8A" frameborder="0" allowfullscreen></iframe>
-
-        </div>
-      </div>
-
-<div class="mainContentItemsContainer newsy eight columns all">
-        <div class="mainContentItemHeadingContainer">
-          <p class="postAttrDate">
-            07.25.16
-          </p>
-          <h6 class="itemTitle">Fera - Pre-Order Info and Record Release Shows</h6>
-          <p class="itemText">
-            <img class="itemPhoto" src="images/fera_cover.jpg"/>
-            <br><br>
-         All pre-order info including the 140 page art and lyric book, t-shirts, and CDs can be found on our <a href="https://husbandryny.bandcamp.com/merch"target="_blank" >Bandcamp.</a> 
-          <br><br>
-          We'll be taking the weekend to play some shows to celebrate the record release, with more tour announcements coming soon!
-          <br><br>
- <img class="itemPhoto" src="images/record-release-shows-2016-august.jpg"/>
-
-        </div>
-      </div>
-
-<div class="mainContentItemsContainer newsy eight columns all">
-        <div class="mainContentItemHeadingContainer">
-          <p class="postAttrDate">
-            06.01.16
-          </p>
-          <h6 class="itemTitle">Fera - 08.23.16</h6>
-          <p class="itemText">
-          Fera (genitive ferae); (fem.)
-          wild animal, beast
-          <br><br>
-This is something we’ve been working hard at for a long time now, and we’re excited to announce the release of our first full-length record entitled “Fera” – through Aqualamb Records, coming out on August 23rd.
-          <br><br>
-             <iframe width="560" height="315" src="https://www.youtube.com/embed/uK1Z7F44FvM" frameborder="0" allowfullscreen></iframe>
-
-        </div>
-      </div>
-
-<div class="mainContentItemsContainer newsy eight columns all">
-        <div class="mainContentItemHeadingContainer">
-          <p class="postAttrDate">
-            03.08.16
-          </p>
-          <h6 class="itemTitle">Tax Evasion Tour 2016</h6>
-          <p class="itemText">
-          We're heading out for a couple of days in April, starting off with a home show at Acheron and ending at the Meatlocker in Jersey with some Maryland fun in between. We'll see you out there. News on the record is coming soon, we promise.
-          <br><br>
-             <img class="itemPhoto" src="images/spring_tour_2016.jpg"/>
-
-        </div>
-      </div>
-
-<div class="mainContentItemsContainer newsy eight columns all">
-        <div class="mainContentItemHeadingContainer">
-          <p class="postAttrDate">
-            11.21.15
-          </p>
-          <h6 class="itemTitle">Last Shows of 2015</h6>
-          <p class="itemText">
-           We've had a hell of a year for 2015. Tons of shows and new friends. We birthed our first LP which will likely see the light of day in 2016. We've got two more shows for 2015, and at the two best venues in Brooklyn for heavy proggy weirdo music. First up is <a href="https://www.facebook.com/events/1661480027424185/"target="_blank" >11.30</a> at Saint Vitus with St. Bastard and Prostitution. 
-           Then we conclude our year with this ripper of a lineup on <a href="https://www.facebook.com/events/1477717545871035/"target="_blank" >12.05</a> at the Acheron with Moon Tooth, Caustic Casanova, and Lutkie. 
-        </div>
-      </div>
-
-
- <div class="mainContentItemsContainer newsy eight columns all">
-        <div class="mainContentItemHeadingContainer">
-          <p class="postAttrDate">
-            09.21.15
-          </p>
-          <h6 class="itemTitle">October Jaunt</h6>
-          <p class="itemText">
-           October brings out the flannel, pumpkin spice bullshit everything, cuffin' season, hot toddys, and three dope Husbandry shows.  We're heading out on a three day jaunt on Columbus Day weekend with our new friends in Baltimore's Queen Wolf, starting with their record release show on <a href="https://www.facebook.com/events/1640944182814065/"target="_blank" >10.9</a>, heading up to Silver Spring, MD for a house show on
-           <a href="https://www.facebook.com/events/1476692699325508/"target="_blank" >10.10</a>, and then ending at Piano's in the lower east side on <a href="https://www.facebook.com/events/1029216237110107/"target="_blank" >10.11</a> with two of our local favorites: Drella and Disparager.
-            <br><br>
-            We'll see you out there.
-        </div>
-      </div>
-
-<div class="mainContentItemsContainer newsy eight columns all">
-        <div class="mainContentItemHeadingContainer">
-          <p class="postAttrDate">
-            08.18.15
-          </p>
-          <h6 class="itemTitle">Tour Recap</h6>
-          <p class="itemText">
-            I want to say "tour is over, we survived" - but I can't hear that line in my head without hearing it in Tom DeLonges voice, so forget I even said it. Thank you to everyone who came out, gave us a high five, gave us a slow clap because you weren't sure if the song was over yet, bought a t-shirt or copy of the EP, etc. We appreciate it a ton and had a great time. Here's a couple of pictures from our week out.
-            <br><br>
-             <img class="itemPhoto" src="images/tour_techs.jpg"/>
-             These two creatures kept us company in Philly and York. Worst guitar techs. Had to let them go.
-            <br><br>
-            <img class="itemPhoto" src="images/recordstore.jpg"/>
-            Shout out to Joe's Records in Silver Spring. A gigantic record store that had that good old classic rock musty smell. Excellent turnout and all the bands were very cool.
-            <br><br>
-            <img class="itemPhoto" src="images/york_group.jpg"/>
-            Thank you to Carina's family who housed and fed us for two days in York, PA. You can actually see our guts a bit bigger in this picture due to all the barbeque we consumed. Tour life is hard.
-            <br><br>
-            <img class="itemPhoto" src="images/berklee.jpg"/>
-            Berklee School of Music. 'Nuff said.
-            <br><br>
-            <img class="itemPhoto" src="images/backstage.jpg"/>
-            Getting turnt backstage in Rhode Island. Wilin' out. Parties til 12am every night. Seriously, one of my favorite venues of the tour - Machines with Magnets. A beautiful space that is art gallery, recording studio and venue all in one. Also run by excellent people, thank you again for the hospitality and projections, Keith.
-             <br><br>
-            <img class="itemPhoto" src="images/Jordan_Andrew_Providence.JPG"/>
-            Here you can see how glad Andrew is that Jordan got his license, and how glad Jordan is that no one is dead.
-            <br><br>
-            <img class="itemPhoto" src="images/pizza.JPG"/>
-            Had to do a run to Frank Pepe's in New Haven before we came home to see what the hype was about. A solid pizza, but NYC is still king. Nice try, Connecticut.
-        </div>
-      </div>
-
-
-
-      <div class="mainContentItemsContainer newsy eight columns all">
-        <div class="mainContentItemHeadingContainer">
-          <p class="postAttrDate">
-            07.21.15
-          </p>
-          <h6 class="itemTitle">Summer Tour 2015</h6>
-          <p class="itemText">
-            What's a great way to cap off spending a week in a recording studio destroying your brain while recording your album? Spending eight days on the road playing those songs and destroying your body. We're really excited to play with a ton of really great bands starting on August 8th at Kung Fu Necktie. 
-            <br><br>
-            Check our <a href="https://www.facebook.com/events/695398733938025/">Facebook</a> for all show details.
-          </p>
-          <img class="itemPhoto" src="images/Husbandry_Summer2015.jpg"/>
-        </div>
-      </div>
-
-    
-
-     
-
-  <!-- News Body^       ↓ About Body
+            <div class="mainContentHeadingContainer newsy eight columns all">
+                <h5 class="mainHeading">News</h5>
+            </div>
+            <div class="mainContentItemsContainer newsy eight columns all">
+                <div class="mainContentItemHeadingContainer">
+                    <p class="postAttrDate">
+                        9.14.17
+                    </p>
+                    <h6 class="itemTitle">First Full US Tour Announced with Moon Tooth</h6>
+                    <p class="itemText">
+                        <img class="itemPhoto" src="images/tour_poster.jpg" />
+                        <br>
+                        <br> We are super excited to announce our first US national tour this November supporting our friends in the ever-excellent band <a href="https://moontoothny.bandcamp.com/">Moon Tooth</a>. We’ve always felt a strong kinship with the Tooth guys ever since we first played with them a few years ago, with their one of a kind spin on progressive and alternative metal music. This is a tour you won’t want to miss, and we hope to see you when we hit your city. We will also have advance copies of our new EP for sale at these shows before they hit the shelves at the end of November, so grab your copy ahead of time! More info on that coming soon. Here are the dates:
+                        <br/> 11/1 - Philadelphia, PA @ Voltage Lounge
+                        <br/> 11/2 - Cleveland, OH @ The Foundry
+                        <br/> 11/3 - Chicago, IL @ Reggie's
+                        <br/> 11/4 - Kansas City, MO @ Riot Room
+                        <br/> 11/5 - Denver, CO @ Moon Room
+                        <br/> 11/7 - Los Angeles, CA @ Viper Room
+                        <br/> 11/8 - Mesa, AZ @ Nile Underground
+                        <br/> 11/10 - Austin, TX @ Come And Take It Live
+                        <br/> 11/11 - San Antonio, TX @ Alamo Music Hall
+                        <br/> 11/13 - Nashville, TN @ The End
+                        <br/> 11/14 - Atlanta, GA @ Masquerade
+                        <br/> 11/15 - Chapel Hill, NC @ Local 506
+                        <br/> 11/16 - Amityville, NY @ Amityville Music Hall
+                        <br/>
+                </div>
+            </div>
+            <div class="mainContentItemsContainer newsy eight columns all">
+                <div class="mainContentItemHeadingContainer">
+                    <p class="postAttrDate">
+                        1.23.17
+                    </p>
+                    <h6 class="itemTitle">Banger Alert</h6>
+                    <p class="itemText">
+                        <img class="itemPhoto" src="images/HUSHFlyer.jpg" />
+                        <br>
+                        <br> Someone might have to call the Guiness Book of World Records, because this could be the heaviest lineup for a show that's ever happened in Brooklyn. Don't be a doofus, get your tickets ahead of time for this one...though I suppose if you didn't get in, you could hear it from down the block.
+                </div>
+            </div>
+            <div class="mainContentItemsContainer newsy eight columns all">
+                <div class="mainContentItemHeadingContainer">
+                    <p class="postAttrDate">
+                        11.22.16
+                    </p>
+                    <h6 class="itemTitle">Giraffe Tongue Orchestra at Gramercy Theater</h6>
+                    <p class="itemText">
+                        Just when you thought the world was on its last leg and nothing good would happen for the rest of 2016...we got something to turn your frown right side up again: we have the pleasure of opening for Giraffe Tongue Orchestra - a band made up of some of our musical heroes - at Gramercy Theater in NYC on 12.1. Not to mention, our friends in Netherlands playing right after us as well. This is going to be a crazy memorable show. Be sure to pick up tickets if you can!
+                </div>
+            </div>
+            <div class="mainContentItemsContainer newsy eight columns all">
+                <div class="mainContentItemHeadingContainer">
+                    <p class="postAttrDate">
+                        10.10.16
+                    </p>
+                    <h6 class="itemTitle">Candiria 5 Borough World Tour</h6>
+                    <p class="itemText">
+                        We have the honor this week of playing with the one and only Candiria (and holy shit, Dalek too) at Gold Sounds in Brooklyn this Wednesday, October 12th. Candiria is one of the bands that taught all of us - especially in a band like ours - that genre doesn't mean a fucking thing. Go where the music takes you.
+                        <br>
+                        <br>
+                        <img class="itemPhoto" src="images/dalek.jpg" />
+                </div>
+            </div>
+            <div class="mainContentItemsContainer newsy eight columns all">
+                <div class="mainContentItemHeadingContainer">
+                    <p class="postAttrDate">
+                        08.30.16
+                    </p>
+                    <h6 class="itemTitle">September Tour 2016</h6>
+                    <p class="itemText">
+                        We're hitting the road for a few dates in the northeast this September. Some highlights include Kingston with Dead Empires on the 16th, Brooklyn with the Caustic Casanova homies on the 28th...oh, and Black Bear Bar on October 12th with the mighty Candiria and Dalek. Yeah, we're stoked too.
+                        <br>
+                        <br>
+                        <img class="itemPhoto" src="images/september_2016_tour.jpg" />
+                </div>
+            </div>
+            <div class="mainContentItemsContainer newsy eight columns all">
+                <div class="mainContentItemHeadingContainer">
+                    <p class="postAttrDate">
+                        08.29.16
+                    </p>
+                    <h6 class="itemTitle">Pit Full of Shit Covers Fera Live</h6>
+                    <p class="itemText">
+                        Thank you very much to Frank Huang, the man behind the treasure chest of live heavy music videos for coming through to the Sunnyvale release show and filming our entire set - which was Fera in order in its entirety. Check it out!
+                        <br>
+                        <br>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/6ZIy0d1CNBo" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="mainContentItemsContainer newsy eight columns all">
+                <div class="mainContentItemHeadingContainer">
+                    <p class="postAttrDate">
+                        08.26.16
+                    </p>
+                    <h6 class="itemTitle">Album Release!</h6>
+                    <p class="itemText">
+                        Today marks the day the album is officially out! The show last night was nothing short of amazing. Thank you very much to Geometers, Spotlights, and Bangladeafy for ripping with us. All of those bands deserve your time and attention, so go check them out!
+                        <br>
+                        <br> If you haven't picked out a bundle or choice of merch from Aqualamb.org, what are you waiting for? Go check them out, or bump the record wherever you're at...because it's on Spotify, too. Enjoy, share your favorite riffs and songs with us, and spread word of Fera far and wide.
+                </div>
+            </div>
+            <div class="mainContentItemsContainer newsy eight columns all">
+                <div class="mainContentItemHeadingContainer">
+                    <p class="postAttrDate">
+                        08.23.16
+                    </p>
+                    <h6 class="itemTitle">"Nature vs. Nurture" Music Video"</h6>
+                    <p class="itemText">
+                        This is the second video released for Fera, a song called "Nature vs. Nurture." The video was compiled and edited by Arnau, and premiered by Metal Injection. Sit back, relax, and enjoy this 2:15 clip of the world slowly circling the drain...
+                        <br>
+                        <br>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/3ak8yTEG06U" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="mainContentItemsContainer newsy eight columns all">
+                <div class="mainContentItemHeadingContainer">
+                    <p class="postAttrDate">
+                        08.11.16
+                    </p>
+                    <h6 class="itemTitle">"So Long, Capricornian Crone" Music Video"</h6>
+                    <p class="itemText">
+                        Here is the video for the first single off of Fera, entitled "So Long Capricornian Crone". Shot, edited, and directed by Thane Lund, with assistance from our own Arnau Bosc.
+                        <br>
+                        <br>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/zJBF3Zpia8A" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="mainContentItemsContainer newsy eight columns all">
+                <div class="mainContentItemHeadingContainer">
+                    <p class="postAttrDate">
+                        07.25.16
+                    </p>
+                    <h6 class="itemTitle">Fera - Pre-Order Info and Record Release Shows</h6>
+                    <p class="itemText">
+                        <img class="itemPhoto" src="images/fera_cover.jpg" />
+                        <br>
+                        <br> All pre-order info including the 140 page art and lyric book, t-shirts, and CDs can be found on our <a href="https://husbandryny.bandcamp.com/merch" target="_blank">Bandcamp.</a>
+                        <br>
+                        <br> We'll be taking the weekend to play some shows to celebrate the record release, with more tour announcements coming soon!
+                        <br>
+                        <br>
+                        <img class="itemPhoto" src="images/record-release-shows-2016-august.jpg" />
+                </div>
+            </div>
+            <div class="mainContentItemsContainer newsy eight columns all">
+                <div class="mainContentItemHeadingContainer">
+                    <p class="postAttrDate">
+                        06.01.16
+                    </p>
+                    <h6 class="itemTitle">Fera - 08.23.16</h6>
+                    <p class="itemText">
+                        Fera (genitive ferae); (fem.) wild animal, beast
+                        <br>
+                        <br> This is something we’ve been working hard at for a long time now, and we’re excited to announce the release of our first full-length record entitled “Fera” – through Aqualamb Records, coming out on August 23rd.
+                        <br>
+                        <br>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/uK1Z7F44FvM" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="mainContentItemsContainer newsy eight columns all">
+                <div class="mainContentItemHeadingContainer">
+                    <p class="postAttrDate">
+                        03.08.16
+                    </p>
+                    <h6 class="itemTitle">Tax Evasion Tour 2016</h6>
+                    <p class="itemText">
+                        We're heading out for a couple of days in April, starting off with a home show at Acheron and ending at the Meatlocker in Jersey with some Maryland fun in between. We'll see you out there. News on the record is coming soon, we promise.
+                        <br>
+                        <br>
+                        <img class="itemPhoto" src="images/spring_tour_2016.jpg" />
+                </div>
+            </div>
+            <div class="mainContentItemsContainer newsy eight columns all">
+                <div class="mainContentItemHeadingContainer">
+                    <p class="postAttrDate">
+                        11.21.15
+                    </p>
+                    <h6 class="itemTitle">Last Shows of 2015</h6>
+                    <p class="itemText">
+                        We've had a hell of a year for 2015. Tons of shows and new friends. We birthed our first LP which will likely see the light of day in 2016. We've got two more shows for 2015, and at the two best venues in Brooklyn for heavy proggy weirdo music. First up is <a href="https://www.facebook.com/events/1661480027424185/" target="_blank">11.30</a> at Saint Vitus with St. Bastard and Prostitution. Then we conclude our year with this ripper of a lineup on <a href="https://www.facebook.com/events/1477717545871035/" target="_blank">12.05</a> at the Acheron with Moon Tooth, Caustic Casanova, and Lutkie.
+                </div>
+            </div>
+            <div class="mainContentItemsContainer newsy eight columns all">
+                <div class="mainContentItemHeadingContainer">
+                    <p class="postAttrDate">
+                        09.21.15
+                    </p>
+                    <h6 class="itemTitle">October Jaunt</h6>
+                    <p class="itemText">
+                        October brings out the flannel, pumpkin spice bullshit everything, cuffin' season, hot toddys, and three dope Husbandry shows. We're heading out on a three day jaunt on Columbus Day weekend with our new friends in Baltimore's Queen Wolf, starting with their record release show on <a href="https://www.facebook.com/events/1640944182814065/" target="_blank">10.9</a>, heading up to Silver Spring, MD for a house show on
+                        <a href="https://www.facebook.com/events/1476692699325508/" target="_blank">10.10</a>, and then ending at Piano's in the lower east side on <a href="https://www.facebook.com/events/1029216237110107/" target="_blank">10.11</a> with two of our local favorites: Drella and Disparager.
+                        <br>
+                        <br> We'll see you out there.
+                </div>
+            </div>
+            <div class="mainContentItemsContainer newsy eight columns all">
+                <div class="mainContentItemHeadingContainer">
+                    <p class="postAttrDate">
+                        08.18.15
+                    </p>
+                    <h6 class="itemTitle">Tour Recap</h6>
+                    <p class="itemText">
+                        I want to say "tour is over, we survived" - but I can't hear that line in my head without hearing it in Tom DeLonges voice, so forget I even said it. Thank you to everyone who came out, gave us a high five, gave us a slow clap because you weren't sure if the song was over yet, bought a t-shirt or copy of the EP, etc. We appreciate it a ton and had a great time. Here's a couple of pictures from our week out.
+                        <br>
+                        <br>
+                        <img class="itemPhoto" src="images/tour_techs.jpg" /> These two creatures kept us company in Philly and York. Worst guitar techs. Had to let them go.
+                        <br>
+                        <br>
+                        <img class="itemPhoto" src="images/recordstore.jpg" /> Shout out to Joe's Records in Silver Spring. A gigantic record store that had that good old classic rock musty smell. Excellent turnout and all the bands were very cool.
+                        <br>
+                        <br>
+                        <img class="itemPhoto" src="images/york_group.jpg" /> Thank you to Carina's family who housed and fed us for two days in York, PA. You can actually see our guts a bit bigger in this picture due to all the barbeque we consumed. Tour life is hard.
+                        <br>
+                        <br>
+                        <img class="itemPhoto" src="images/berklee.jpg" /> Berklee School of Music. 'Nuff said.
+                        <br>
+                        <br>
+                        <img class="itemPhoto" src="images/backstage.jpg" /> Getting turnt backstage in Rhode Island. Wilin' out. Parties til 12am every night. Seriously, one of my favorite venues of the tour - Machines with Magnets. A beautiful space that is art gallery, recording studio and venue all in one. Also run by excellent people, thank you again for the hospitality and projections, Keith.
+                        <br>
+                        <br>
+                        <img class="itemPhoto" src="images/Jordan_Andrew_Providence.JPG" /> Here you can see how glad Andrew is that Jordan got his license, and how glad Jordan is that no one is dead.
+                        <br>
+                        <br>
+                        <img class="itemPhoto" src="images/pizza.JPG" /> Had to do a run to Frank Pepe's in New Haven before we came home to see what the hype was about. A solid pizza, but NYC is still king. Nice try, Connecticut.
+                </div>
+            </div>
+            <div class="mainContentItemsContainer newsy eight columns all">
+                <div class="mainContentItemHeadingContainer">
+                    <p class="postAttrDate">
+                        07.21.15
+                    </p>
+                    <h6 class="itemTitle">Summer Tour 2015</h6>
+                    <p class="itemText">
+                        What's a great way to cap off spending a week in a recording studio destroying your brain while recording your album? Spending eight days on the road playing those songs and destroying your body. We're really excited to play with a ton of really great bands starting on August 8th at Kung Fu Necktie.
+                        <br>
+                        <br> Check our <a href="https://www.facebook.com/events/695398733938025/">Facebook</a> for all show details.
+                    </p>
+                    <img class="itemPhoto" src="images/Husbandry_Summer2015.jpg" />
+                </div>
+            </div>
+            <!-- News Body^       ↓ About Body
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+            <div style="display: none;" class="mainContentHeadingContainer eight columns abouty all">
+                <h5 class="mainHeading">About</h5>
+            </div>
+            <div style="display: none;" class="mainContentItemsContainer about eight columns abouty all">
+                <div class="mainContentItemHeadingContainer">
+                    <p class="itemText">
+                        Fera (genitive ferae); (fem.) wild animal, beast
+                        <br>
+                        <br> Husbandry's debut full length is a wild, aggressive and sensual trip across nine masterfully crafted and equally unrelenting tracks. The riotous result of years of inspiration and experimentation compressed by the heat of a sweltering mid-July recording session, the band gunned through the album's explosive tracks like beasts through a jungle. In under a week's time — without doctoring or pitch correction to be found — the band emerged with FERA in tact. There's an undeniable immediacy to the fierce and frenetic energy of the record that is in debted at least partially to its scorching, raw, and feral origins.
+                    </p>
+                    <img class="itemPhotoAbout" src="images/Husbandry_Group_b.jpg" />
+                    <p class="itemText">
+                        Carina Zachary - vocals, Bronx street cred
+                    </p>
+                    <p class="itemText">
+                        Jordan Usatch - guitars, Seinfeld references
+                    </p>
+                    <p class="itemText">
+                        Arnau Bosc - bass, vocals, hilarious mispronunciations
+                    </p>
+                    <p class="itemText">
+                        Andrew Gottlieb - drums, food recommendations
+                    </p>
+                </div>
+            </div>
+            <div style="display: none;" class="mainContentHeadingContainer eight columns abouty all">
+                <h5 class="mainHeading">Press</h5>
+            </div>
+            <div style="display: none;" class="mainContentItemsContainer about eight columns abouty all">
+                <div class="mainContentItemHeadingContainer pressItem">
+                    <p class="postAttrDate">
+                        09.05.17
+                    </p>
+                    <h6 class="pressHeadline">Afropunk Video Premier of "Grab Twist Pull"</h6>
+                    <p class="itemText">
+                        "Post-hardcore rockers Husbandry call out violence against women in 'Grab Twist Pull'"
+                    </p>
+                    <span><p class="itemText inline highlight"><a href="http://afropunk.com/2017/09/video-premiere-post-hardcore-rockers-husbandry-call-violence-women-confrontational-grab-twist-pull/" target="_blank">Read</a></span></p>
+                </div>
 
+                <div class="mainContentItemHeadingContainer pressItem">
+                    <p class="postAttrDate">
+                        09.24.16
+                    </p>
+                    <h6 class="pressHeadline">Nerdist Coverage of Fera</h6>
+                    <p class="itemText">
+                        “...the sort of stuff that should be filling stadiums. It’s catchy and intense, like a version Mars Volta or Dillinger Escape Plan you could listen to with your mom and dad."
+                    </p>
+                    <span><p class="itemText inline highlight"><a href="http://www.http://nerdist.com/scream-at-a-wall-neurosis-and-amon-amarth-will-make-you-raise-some-horns/" target="_blank">Read</a></span></p>
+                </div>
 
-      <div style="display: none;" class="mainContentHeadingContainer eight columns abouty all">
-        <h5 class="mainHeading">About</h5>
-      </div>
+                <div class="mainContentItemHeadingContainer pressItem">
+                    <p class="postAttrDate">
+                        08.12.16
+                    </p>
+                    <h6 class="pressHeadline">MetalSucks Covers Crone Video</h6>
+                    <p class="itemText">
+                        “The track is bouncy — got my head bobbing up and down — and there are plenty of riffs here that dug their claws right into me..."
+                    </p>
+                    <span><p class="itemText inline highlight"><a href="http://www.metalsucks.net/2016/08/12/post-hardcore-band-husbandry-debuts-new-track-long-capricornian-crone/" target="_blank">Read</a></span></p>
+                </div>
 
-      <div style="display: none;" class="mainContentItemsContainer about eight columns abouty all">
-        <div class="mainContentItemHeadingContainer">
-          <p class="itemText">
-            Fera (genitive ferae); (fem.) wild animal, beast
-            <br><br>
-Husbandry's debut full length is a wild, aggressive and sensual trip across nine masterfully crafted and equally unrelenting tracks. The riotous result of years of inspiration and experimentation compressed by the heat of a sweltering mid-July recording session, the band gunned through the album's explosive tracks like beasts through a jungle. In under a week's time — without doctoring or pitch correction to be found — the band emerged with FERA in tact. There's an undeniable immediacy to the fierce and frenetic energy of the record that is in debted at least partially to its scorching, raw, and feral origins.
-          </p>
-          <img class="itemPhotoAbout" src="images/Husbandry_Group_b.jpg"/>
-          <p class="itemText">
-            Carina Zachary - vocals, Bronx street cred
-          </p>
-          <p class="itemText">
-            Jordan Usatch - guitars, Seinfeld references
-          </p>
-          <p class="itemText">
-            Arnau Bosc - bass, vocals, hilarious mispronunciations
-          </p>
-          <p class="itemText">
-            Andrew Gottlieb - drums, food recommendations
-          </p>
-        </div>
-      </div>
+                <div class="mainContentItemHeadingContainer pressItem">
+                    <p class="postAttrDate">
+                        08.11.16
+                    </p>
+                    <h6 class="pressHeadline">Afropunk Video Premier of "So Long, Capriconian Crone"</h6>
+                    <p class="itemText">
+                        “Fronted by Carina Zachary, this four-piece band of rockers is the antidote to boredom, the counter to stagnation, and a thorough glimpse at the trajectory of modern rock."
+                    </p>
+                    <span><p class="itemText inline highlight"><a href="http://www.afropunk.com/profiles/blogs/video-premiere-brooklyn-s-post-hardcore-band-husbandry-embraces" target="_blank">Read</a></span></p>
+                </div>
 
+                <div class="mainContentItemHeadingContainer pressItem">
+                    <p class="postAttrDate">
+                        12.09.14
+                    </p>
+                    <h6 class="pressHeadline">Half Cloth Best EPs 2014</h6>
+                    <p class="itemText">
+                        “Sharp and tense, moody and oblique, Husbandry’s four song Make Room For Waves offers twenty minutes of dense punk that never stops churning. On EP-highlight “Sentient”, which pivots from thick Jawbox-esque sprawl to sidewinding riffs reminiscent of Hot Snakes, singer Carina Zachary demands “Who’s accountable?” – a devastatingly apt question for a year defined by nightmarish unaccountability. Husbandry recall a golden era...
+                    </p>
+                    <span><p class="itemText inline highlight"><a href="http://www.halfcloth.com/feature-best-eps-2014/" target="_blank">Read</a></span></p>
+                </div>
 
-
-      <div style="display: none;" class="mainContentHeadingContainer eight columns abouty all">
-        <h5 class="mainHeading">Press</h5>
-      </div>
-
-
-      <div style="display: none;" class="mainContentItemsContainer about eight columns abouty all">
-
-            <div class="mainContentItemHeadingContainer pressItem">
-          <p class="postAttrDate">
-            09.24.16
-          </p>
-          <h6 class="pressHeadline">Nerdist Coverage of Fera</h6>
-          <p class="itemText">
-          “...the sort of stuff that should be filling stadiums. It’s catchy and intense, like a version Mars Volta or Dillinger Escape Plan you could listen to with your mom and dad."
-          </p>
-          <span><p class="itemText inline highlight"><a href="http://www.http://nerdist.com/scream-at-a-wall-neurosis-and-amon-amarth-will-make-you-raise-some-horns/" target="_blank">Read</a></span></p>
-        </div>
-
-             <div class="mainContentItemHeadingContainer pressItem">
-          <p class="postAttrDate">
-            08.12.16
-          </p>
-          <h6 class="pressHeadline">MetalSucks Covers Crone Video</h6>
-          <p class="itemText">
-          “The track is bouncy — got my head bobbing up and down — and there are plenty of riffs here that dug their claws right into me..."
-          </p>
-          <span><p class="itemText inline highlight"><a href="http://www.metalsucks.net/2016/08/12/post-hardcore-band-husbandry-debuts-new-track-long-capricornian-crone/" target="_blank">Read</a></span></p>
-        </div>
-        
- <div class="mainContentItemHeadingContainer pressItem">
-          <p class="postAttrDate">
-            08.11.16
-          </p>
-          <h6 class="pressHeadline">AfroPunk Video Premier</h6>
-          <p class="itemText">
-          “Fronted by Carina Zachary, this four-piece band of rockers is the antidote to boredom, the counter to stagnation, and a thorough glimpse at the trajectory of modern rock."
-          </p>
-          <span><p class="itemText inline highlight"><a href="http://www.afropunk.com/profiles/blogs/video-premiere-brooklyn-s-post-hardcore-band-husbandry-embraces" target="_blank">Read</a></span></p>
-        </div>
-
-        <div class="mainContentItemHeadingContainer pressItem">
-          <p class="postAttrDate">
-            12.09.14
-          </p>
-          <h6 class="pressHeadline">Half Cloth Best EPs 2014</h6>
-          <p class="itemText">
-          “Sharp and tense, moody and oblique, Husbandry’s four song Make Room For Waves offers twenty minutes of dense punk that never stops churning. On EP-highlight “Sentient”, which pivots from thick Jawbox-esque sprawl to sidewinding riffs reminiscent of Hot Snakes, singer Carina Zachary demands “Who’s accountable?” – a devastatingly apt question for a year defined by nightmarish unaccountability. Husbandry recall a golden era...
-          </p>
-          <span><p class="itemText inline highlight"><a href="http://www.halfcloth.com/feature-best-eps-2014/" target="_blank">Read</a></span></p>
-        </div>
-      
-
-        <div class="mainContentItemHeadingContainer pressItem">
-          <p class="postAttrDate">
-            06.01.14
-          </p>
-          <h6 class="pressHeadline">Repartiseraren on “Biralata”</h6>
-          <p class="itemText">
-          “In Brooklyn you find a band that has its roots down under, but above the ground they reside with post-punk overtones. With their interesting combination of metal, experimental rock, post-hardcore and post-punk they make way for who they’ve become. Since they haven’t been around for that long, let alone put out anything besides their newly released “Make Room For Waves” EP, it’s great to hear something fresh once in a while.
-          </p>
-          <span><p class="itemText inline highlight"><a href="https://invisibleguy.wordpress.com/2014/06/01/exclusive-premiere-husbandry-biralata/" target="_blank">Read</span></p></a>
-        </div>
-      </div>
-
-
-
-
-
-  <!-- Show Widget ^       ↓ Main Body
+                <div class="mainContentItemHeadingContainer pressItem">
+                    <p class="postAttrDate">
+                        06.01.14
+                    </p>
+                    <h6 class="pressHeadline">Repartiseraren on “Biralata”</h6>
+                    <p class="itemText">
+                        “In Brooklyn you find a band that has its roots down under, but above the ground they reside with post-punk overtones. With their interesting combination of metal, experimental rock, post-hardcore and post-punk they make way for who they’ve become. Since they haven’t been around for that long, let alone put out anything besides their newly released “Make Room For Waves” EP, it’s great to hear something fresh once in a while.
+                    </p>
+                    <span><p class="itemText inline highlight"><a href="https://invisibleguy.wordpress.com/2014/06/01/exclusive-premiere-husbandry-biralata/" target="_blank">Read</span></p>
+                    </a>
+                </div>
+            </div>
+            <!-- Show Widget ^       ↓ Main Body
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-      <div style="display:none;" class="showsy all mainContentHeadingContainer pressHeading twelve columns">
-        <h5 class="mainHeading">Upcoming Shows</h5>
-      </div>
-
-<div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">9.30.17 -</p>
-        <p class="inline">Brooklyn, NY·</p>
-        <p class="inline highlight"><a href="https://www.facebook.com/events/1957166704564398/">The Well</a></p>
-        <p class="inline">· W/ Druse, Innerout, Erostratus</p>
-      </div>  
-
-
-  <!-- Upcoming Shows ^       ↓ Past Shows
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-      <div style="display:none;" class="showsy all mainContentHeadingContainer pressHeading twelve columns">
-        <h5 class="mainHeading">Past Shows</h5>
-      </div>
-
-
-<div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">6.23.17 -</p>
-        <p class="inline">Brooklyn, NY·</p>
-        <p class="inline">Knitting Factory</p>
-        <p class="inline">· W/ Planes Mistaken for Stars, Crushed</p>
-      </div>  
-
-<div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">6.16.17 -</p>
-        <p class="inline">Queens, NY·</p>
-        <p class="inline">Footlight</p>
-        <p class="inline">· W/ Friendship Commanders, Bright Christ, La Peche</p>
-      </div>
-
-<div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">4.28.17 -</p>
-        <p class="inline">Purchase, NY·</p>
-        <p class="inline">The Stood</p>
-        <p class="inline">· Culture Shock 2017</p>
-      </div>
-  
-<div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">3.8.17 -</p>
-        <p class="inline">Brooklyn, NY·</p>
-        <p class="inline">The Well</a></p>
-        <p class="inline">· W/ HUSH, Rozamov, Godmaker</p>
-      </div>
-
-<div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">2.15.17 -</p>
-        <p class="inline">Brooklyn, NY·</p>
-        <p class="inline">Saint Vitus</a></p>
-        <p class="inline">· W/ STATS, Blind Idiot God</p>
-      </div>
-
-<div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">1.14.17 -</p>
-        <p class="inline">Queens, NY·</p>
-        <p class="inline">Trans Pecos</a></p>
-        <p class="inline">· W/ Sperm Donor, Superblonde, Zevious</p>
-      </div>
-
-<div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">12.13.16 -</p>
-        <p class="inline">Brooklyn, NY·</p>
-        <p class="inline">Saint Vitus</a></p>
-        <p class="inline">· W/ Jucifer, Sick Shit</p>
-      </div>
-  
-<div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">11.19.16 -</p>
-        <p class="inline">Brooklyn, NY·</p>
-        <p class="inline">The Well</a></p>
-        <p class="inline">· W/ Flavor Waster, Godmaker, Netherlands</p>
-      </div>
-
-<div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">11.12.16 -</p>
-        <p class="inline">McClean, VA·</p>
-        <p class="inline">BDU House</a></p>
-        <p class="inline">· W/ Dear Spring, In Angles, Caustic Casanova,</p>
-      </div>
-
-<div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">11.11.16 -</p>
-        <p class="inline">Frederick, MD·</p>
-        <p class="inline">Guido's</a></p>
-        <p class="inline">· W/ Akris, MoBaDi</p>
-      </div>
-
-<div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">11.06.16 -</p>
-        <p class="inline">New York City, NY·</p>
-        <p class="inline">Bowery Electric</a></p>
-        <p class="inline">· W/ Earworms (Record Release), Dead Empires, Geometers</p>
-      </div>
-
-
-    <div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">10.12.16 -</p>
-        <p class="inline">Brooklyn, NY·</p>
-        <p class="inline">Black Bear Bar</a></p>
-        <p class="inline">· W/ Candiria, Dalek</p>
-      </div>
-
-    <div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">10.01.16 -</p>
-        <p class="inline">Philadelphia, PA ·</p>
-        <p class="inline">Century</a></p>
-        <p class="inline">· W/ LMI, Hells, Legendary Divorce</p>
-      </div>
-
-
-    <div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">09.23.16 -</p>
-        <p class="inline">Jersey City, NJ ·</p>
-        <p class="inline">The Citizen</a></p>
-        <p class="inline">· W/ Black Wail, Hengine</p>
-      </div>
-
-    <div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">09.22.16 -</p>
-        <p class="inline">Purchase, NY ·</p>
-        <p class="inline">WPSR Radio Station</a></p>
-        <p class="inline">· W/ Toxic Crew</p>
-      </div>
-
-       <div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">09.21.16 -</p>
-        <p class="inline">Wallingford, CT ·</p>
-        <p class="inline">Cherry St. Station</a></p>
-        <p class="inline">· W/ Huo, Sperm Donor</p>
-      </div>
-
- <div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">09.20.16 -</p>
-        <p class="inline">Providence, RI ·</p>
-        <p class="inline">Dusk</a></p>
-        <p class="inline">· W/ Public Policy, Black Oil Incinerator, & Sex Orgy Death Crash</p>
-      </div>
-
-      <div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">09.19.16 -</p>
-        <p class="inline">Boston, MA</p>
-        <p class="inline">O'Briens Pub·</a></p>
-        <p class="inline">· W/ Oh, Adeona, Aneurysm, Gamma Pope</p>
-      </div>
-
-      <div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">09.18.16 -</p>
-        <p class="inline">Easthampton, PA ·</p>
-        <p class="inline">The Ohm</a></p>
-        <p class="inline">· W/ Severe Severe, Goblet, & Sunstained</p>
-      </div>
-
-      <div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">09.17.16 -</p>
-        <p class="inline">Oneonta, NY ·</p>
-        <p class="inline">The Spleen</a></p>
-        <p class="inline">· W/ Gallons of Pork</p>
-      </div>
-
-      <div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">09.16.16 -</p>
-        <p class="inline">Kingston, NY ·</p>
-        <p class="inline">BSP Kingston</a></p>
-        <p class="inline">· W/ Dead Empires</p>
-      </div>
-
-       <div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">08.28.16 -</p>
-        <p class="inline">Philadelphia, PA ·</p>
-        <p class="inline">Connie's Ric Rac</a></p>
-      </div>
-
-       <div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">08.27.16 -</p>
-        <p class="inline">Baltimore, MD·</p>
-        <p class="inline">Baltimore Free Farm</a></p>
-        <p class="inline">·Mother Moon, Infinite Pizza, Naked Cult</p>
-      </div>
-
-       <div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">08.26.16 -</p>
-        <p class="inline">Easton, PA ·</p>
-        <p class="inline">Mothers Bar and Grill</a></p>
-        <p class="inline">· Buzz Herd</p>
-      </div>
-
-        <div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">08.25.16 -</p>
-        <p class="inline">Brooklyn, NY ·</p>
-        <p class="inline">Sunnyvale</a></p>
-        <p class="inline">· Fera Record Release Show W/ Geometers, Spotlights, Bangladeafy</p>
-      </div>
-
-<div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">08.09.16 -</p>
-        <p class="inline">Brooklyn, NY ·</p>
-        <p class="inline">Gateway</a></p>
-        <p class="inline">· Body Thief, Sister Helen, Loosie</p>
-      </div>
-
-<div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">07.14.16 -</p>
-        <p class="inline">Brooklyn, NY ·</p>
-        <p class="inline">The Gutter</a></p>
-        <p class="inline">· W/ LMI, Sexy Neighbors</p>
-      </div>
-
-<div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">05.31.16 -</p>
-        <p class="inline">Brooklyn, NY ·</p>
-        <p class="inline">Acheron</a></p>
-        <p class="inline">· W/ Tiger Flowers, Inaeona, Moon Tooth</p>
-      </div>
-
-      <div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">05.20.16 -</p>
-        <p class="inline">Brooklyn, NY ·</p>
-        <p class="inline">Lucky 13</a></p>
-        <p class="inline">· W/ LSDeity, Suaka, Witch Fist</p>
-      </div>
-
-  <div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">04.23.16 -</p>
-        <p class="inline">Queens, NY ·</p>
-        <p class="inline">Trans Pecos</a></p>
-        <p class="inline">· W/ Electric Caves, No Honeymoon, Sad Magic, MACHINEGIRL, Juiceboxxx·</p>
-      </div>
-
-        <div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">04.17.16 -</p>
-        <p class="inline">Monclair, NJ ·</p>
-        <p class="inline">The Meatlocker</a></p>
-        <p class="inline">· W/ Entia, Archie Alone, The Best of the Worst ·</p>
-      </div>
-
-        <div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">04.16.16 -</p>
-        <p class="inline">Frederick, MD·</p>
-        <p class="inline">Guidos</a></p>
-        <p class="inline">· W/ Hepatagua, Fortress, & Slugthrower ·</p>
-      </div>
-
-        <div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">04.15.16 -</p>
-        <p class="inline">Baltimore, MD ·</p>
-        <p class="inline">Sidebar</a></p>
-        <p class="inline">· W/ Infinite Pizza, Neckbreather, Canker Blossom  ·</p>
-      </div>
-
-        <div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">04.14.16 -</p>
-        <p class="inline">Wind Gap, PA ·</p>
-        <p class="inline">House Show</a></p>
-        <p class="inline">· W/ Downtrodder, Sick Shit ·</p>
-      </div>
-
-        <div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">04.13.16 -</p>
-        <p class="inline">Brooklyn, NY ·</p>
-        <p class="inline">The Acheron</a></p>
-        <p class="inline">· Lactate, Staghorn, Spotlights ·</p>
-      </div>
-
-        <div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">03.25.16 -</p>
-        <p class="inline">Brooklyn, NY ·</p>
-        <p class="inline">Grand Victory</a></p>
-        <p class="inline">· W/ Iron Gag, Nightcrawler, & Prostitution ·</p>
-      </div>
-
-
-<div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">1.29.16 -</p>
-        <p class="inline">Brooklyn, NY ·</p>
-        <p class="inline">Lucky 13</a></p>
-        <p class="inline">· W/ Hepatagua, Harris Hawk, & Shitkill ·</p>
-      </div>
-
-      <div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">12.05.15 -</p>
-        <p class="inline">Brooklyn, NY ·</p>
-        <p class="inline">The Acheron</a></p>
-        <p class="inline">· W/ Moon Tooth, Caustic Casanova, & Lutkie ·</p>
-      </div>
-
-      <div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">11.30.15 -</p>
-        <p class="inline">Brooklyn, NY ·</p>
-        <p class="inline">Saint Vitus</a></p>
-        <p class="inline">· W/ St. Bastard & Prostitution ·</p>
-      </div>
-
-<div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">10.11.15 -</p>
-        <p class="inline">NY, NY ·</p>
-        <p class="inline">Piano's</a></p>
-        <p class="inline">· W/ Queen Wolf, Drella, & Disparager ·</p>
-      </div>
-
-<div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">10.10.15 -</p>
-        <p class="inline">Wheaton, MD ·</p>
-        <p class="inline">Baxter Building</a></p>
-        <p class="inline">· W/ Queen Wolf, Polyon, Sideshow Cinema  ·</p>
-      </div>
-
-<div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">10.09.15 -</p>
-        <p class="inline">Baltimore, MD ·</p>
-        <p class="inline">Baltimore Free Farm</a></p>
-        <p class="inline">· W/ Queen Wolf, Mostly Only, & Natural Velvet ·</p>
-      </div>
-
-
-<div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">09.19.15 -</p>
-        <p class="inline">Brooklyn, NY ·</p>
-        <p class="inline">Don Pedro's</a></p>
-        <p class="inline">· W/ Fall of the Albatross, Suaka & Moon Tooth ·</p>
-      </div>
-
-<div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">08.14.15 -</p>
-        <p class="inline">New Haven, CT ·</p>
-        <p class="inline">Three Sheets</a></p>
-        <p class="inline">· W/ Laundry Day & Dead Tenors ·</p>
-      </div>
-
-<div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">08.13.15 -</p>
-        <p class="inline">Boston, MA ·</p>
-        <p class="inline">O'Briens Pub</a></p>
-        <p class="inline">· W/ Spitting Black, Drones for Queens, and Rum Ham ·</p>
-      </div>
-
-<div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">08.12.15 -</p>
-        <p class="inline">Pawtucket, RI ·</p>
-        <p class="inline">Machines with Magnets</a></p>
-        <p class="inline">· W/ Snowplows & black oil incinerator ·</p>
-      </div>
-
-      <div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">08.11.15 -</p>
-        <p class="inline">Brooklyn, NY ·</p>
-        <p class="inline">Grand Victory</a></p>
-        <p class="inline">· W/ Servant Girl, Null & Void ·</p>
-      </div>
-
-      <div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">08.10.15 -</p>
-        <p class="inline">Silver Spring, MD ·</p>
-        <p class="inline">Joe's Record Shop</a></p>
-        <p class="inline">· W/ Cave of Swimmers, Caustic Casanova, & The Meer·</p>
-      </div>
-
-      <div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">08.09.15 -</p>
-        <p class="inline">Bethlehem, PA ·</p>
-        <p class="inline">Spacefest @ Shankara Vegan Restaurant</a></p>
-        <p class="inline">· W/ Hell to Pay, Hashgrinder, & Bittered·</p>
-      </div>
-
-      <div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">08.08.15 -</p>
-        <p class="inline">Philadelphia, PA ·</p>
-        <p class="inline">Kung Fu Necktie</a></p>
-        <p class="inline">· W/ APE!, Bombers, & Cacciato ·</p>
-      </div>
-
-      <div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">05.15.15 -</p>
-        <p class="inline">Brooklyn, NY ·</p>
-        <p class="inline">Lucky 13</a></p>
-        <p class="inline">· W/ Marching Teeth, Clover, Intercourse ·</p>
-      </div>
-
-      <div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">05.08.15 -</p>
-        <p class="inline">Brooklyn, NY ·</p>
-        <p class="inline">The Gutter</a></p>
-        <p class="inline">· W/ Video Beast, Servant Girl, Lutkie, Hvllows ·</p>
-      </div>
-
-      <div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">05.01.15 -</p>
-        <p class="inline">Brooklyn, NY ·</p>
-        <p class="inline">Legion</a></p>
-        <p class="inline">· W/ Native Lights, Servant Girl ·</p>
-      </div>
-
-<div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">04.20.15 -</p>
-        <p class="inline">NY, NY ·</p>
-        <p class="inline">Mercury Lounge</a></p>
-        <p class="inline">· W/ SickWalt ·</p>
-      </div>
-
-      <div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">04.10.15 -</p>
-        <p class="inline">Brooklyn, NY ·</p>
-        <p class="inline">Saint Vitus</a></p>
-        <p class="inline">· W/ Stephen Brodsky, Kosmodemonic ·</p>
-      </div>
-
-      <div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">04.04.15 -</p>
-        <p class="inline">NY, NY ·</p>
-        <p class="inline">Studio at Webster Hall</a></p>
-        <p class="inline">· W/ Barren Womb, GRIZZLOR, Before the End ·</p>
-      </div>
-
-      <div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">03.27.15 -</p>
-        <p class="inline">Brooklyn, NY ·</p>
-        <p class="inline">The Flat</a></p>
-        <p class="inline">· W/ Carved Up, Verses Narrow, Descender ·</p>
-      </div>
-      
+            <div style="display:none;" class="showsy all mainContentHeadingContainer pressHeading twelve columns">
+                <h5 class="mainHeading">Upcoming Shows</h5>
+            </div>
             <div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">03.08.15 -</p>
-        <p class="inline">NY, NY ·</p>
-        <p class="inline">Studio at Webster Hall</a></p>
-        <p class="inline">· W/ Self Defense Family, Creative Adult, CUTTERS ·</p>
-      </div>
+                <p class="inline">9.30.17 -</p>
+                <p class="inline">Brooklyn, NY ·</p>
+                <p class="inline highlight"><a href="https://www.facebook.com/events/1957166704564398/">The Well</a></p>
+                <p class="inline">· W/ Druse, Innerout, Erostratus</p>
+            </div>
 
             <div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">02.07.15 -</p>
-        <p class="inline">Brooklyn, NY ·</p>
-        <p class="inline">Grand Victory</a></p>
-        <p class="inline">· W/ Bombers, Second Still, Wildly ·</p>
-      </div>
-
-      <div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">01.31.15 -</p>
-        <p class="inline">Brooklyn, NY ·</p>
-        <p class="inline">Palisades</a></p>
-        <p class="inline">· W/ Flagland, Unstoppable Death Machines, bbigpigg, Dead Tenants ·</p>
-      </div>
-
-      <div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">01.11.15 -</p>
-        <p class="inline">Brooklyn, NY ·</p>
-        <p class="inline">Coco 66</a></p>
-        <p class="inline">· W/ Trophy Scars, I Revere, Disparager, Graves ·</p>
-      </div>
+                <p class="inline">10.20.17 -</p>
+                <p class="inline">Brooklyn, NY ·</p>
+                <p class="inline">The Well</p>
+                <p class="inline">· W/ Rozamov, Black Wail, Motor Teresa</p>
+            </div>
 
             <div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">11.16.14 -</p>
-        <p class="inline">Brooklyn, NY ·</p>
-        <p class="inline">Black Bear Bar</a></p>
-        <p class="inline">· W/ YAWN, Duane Barry, Drones for Queens, Drella ·</p>
-      </div>
+                <p class="inline">10.21.17 -</p>
+                <p class="inline">Florence, MA ·</p>
+                <p class="inline highlight"><a href="https://www.facebook.com/events/651555911710052/">13th Floor Music Lounge</a></p>
+                <p class="inline">· W/ Rozamov, Barishi, Cazador</p>
+            </div>
 
-<div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">10.16.14 -</p>
-        <p class="inline">Brooklyn, NY ·</p>
-        <p class="inline">The Acheron</a></p>
-        <p class="inline">· W/ NO WAY, Faking, Bardus ·</p>
-      </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">10.22.17 -</p>
+                <p class="inline">Boston, MA ·</p>
+                <p class="inline highlight"><a href="https://www.facebook.com/events/2354192504805818/">Middle East Upstairs</a></p>
+                <p class="inline">· W/ Rozamov, Kal Marks, Nomad Stones</p>
+            </div>
 
-      <div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">10.12.14 -</p>
-        <p class="inline">Brooklyn, NY ·</p>
-        <p class="inline">The Paperbox</a></p>
-        <p class="inline">· Rocktober Fest ·</p>
-      </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">10.30.17 -</p>
+                <p class="inline">Brooklyn, NY ·</p>
+                <p class="inline highlight"><a href="https://www.facebook.com/events/1784068004967237/">Saint Vitus</a></p>
+                <p class="inline">· W/ Helms Alee, Primitive Weapons</p>
+            </div>
 
-<div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">10.06.14 -</p>
-        <p class="inline">NY, NY ·</p>
-        <p class="inline">Pianos</a></p>
-        <p class="inline">· W/ Kyle Lacy, Rally, Keelan Donovan ·</p>
-      </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">11.1.17 -</p>
+                <p class="inline">Philadelphia, PA ·</p>
+                <p class="inline highlight"><a href="https://www.facebook.com/events/197428514130481/">Voltage Lounge</a></p>
+                <p class="inline">· W/ Moon Tooth</p>
+            </div>
 
-<div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">09.26.14 -</p>
-        <p class="inline">Brooklyn, NY ·</p>
-        <p class="inline">The Flat</a></p>
-        <p class="inline">· W/ Weird Teeth, Suaka, Wet Water ·</p>
-      </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">11.2.17 -</p>
+                <p class="inline">Cleveland, OH ·</p>
+                <p class="inline highlight"><a href="https://www.facebook.com/events/1752038618423696/">The Foundry</a></p>
+                <p class="inline">· W/ Moon Tooth</p>
+            </div>
 
-<div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">09.23.14 -</p>
-        <p class="inline">Brooklyn, NY ·</p>
-        <p class="inline">Saint Vitus</a></p>
-        <p class="inline">· W/ He is Legend, SoftSpot, Jesse Smith & the Ghost ·</p>
-      </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">11.3.17 -</p>
+                <p class="inline">Chicago, IL ·</p>
+                <p class="inline">Reggie's</p>
+                <p class="inline">· W/ Moon Tooth</p>
+            </div>
 
-<div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">09.10.14 -</p>
-        <p class="inline">Brooklyn, NY ·</p>
-        <p class="inline">Saint Vitus</a></p>
-        <p class="inline">· W/ Milsted, YAWN, Duane Barry ·</p>
-      </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">11.4.17 -</p>
+                <p class="inline">Kansas City, MO ·</p>
+                <p class="inline">Riot Room</p>
+                <p class="inline">· W/ Moon Tooth</p>
+            </div>
 
-<div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">08.29.14 -</p>
-        <p class="inline">Brooklyn, NY ·</p>
-        <p class="inline">Pine Box Rock Shop</a></p>
-        <p class="inline">· W/ Poison Rings, Video Beast ·</p>
-      </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">11.5.17 -</p>
+                <p class="inline">Denver, CO ·</p>
+                <p class="inline highlight"><a href="https://www.facebook.com/events/129714960999347/">Moon Room</a></p>
+                <p class="inline">· W/ Moon Tooth</p>
+            </div>
 
-      <div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">08.23.14 -</p>
-        <p class="inline">Florence, MA ·</p>
-        <p class="inline">13th Floor Lounge</a></p>
-        <p class="inline">· W/ Dead Tenants, Gracefully Aging, Hippie Soloists ·</p>
-      </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">11.7.17 -</p>
+                <p class="inline">Los Angeles, CA ·</p>
+                <p class="inline highlight"><a href="https://www.facebook.com/events/1664530743629592/">Viper Room</a></p>
+                <p class="inline">· W/ Moon Tooth</p>
+            </div>
 
-<div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">08.22.14 -</p>
-        <p class="inline">Providence, RI ·</p>
-        <p class="inline">Dusk</a></p>
-        <p class="inline">· W/ Pile, Ask The Dead, 14 Foot 1 ·</p>
-      </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">11.8.17 -</p>
+                <p class="inline">Mesa, AZ ·</p>
+                <p class="inline">Nile Underground</p>
+                <p class="inline">· W/ Moon Tooth</p>
+            </div>
 
-      <div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">08.20.14 -</p>
-        <p class="inline">NY, NY ·</p>
-        <p class="inline">Cake Shop</a></p>
-        <p class="inline">· W/ Alien Trilogy, White Rope, D. Gookin ·</p>
-      </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">11.10.17 -</p>
+                <p class="inline">Austin, TX ·</p>
+                <p class="inline highlight"><a href="https://www.facebook.com/events/116070342438186/">Come and Take it Live</a></p>
+                <p class="inline">· W/ Moon Tooth</p>
+            </div>
 
-          <div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">08.18.14 -</p>
-        <p class="inline">Brooklyn, NY ·</p>
-        <p class="inline">Death by Audio</a></p>
-        <p class="inline">· W/ Melk Belly, Outside World, Matchess ·</p>
-      </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">11.11.17 -</p>
+                <p class="inline">San Antonio, TX ·</p>
+                <p class="inline highlight"><a href="https://www.facebook.com/events/381491555601851/">Alamo Music Hall</a></p>
+                <p class="inline">· W/ Moon Tooth</p>
+            </div>
 
-      <div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">08.16.14 -</p>
-        <p class="inline">McClean, VA ·</p>
-        <p class="inline">BDU House</a></p>
-        <p class="inline">· W/ Static Scene, Solace Sovay, Lilac Daze, The Obsessives ·</p>
-      </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">11.13.17 -</p>
+                <p class="inline">Nashville, TN ·</p>
+                <p class="inline">The End</p>
+                <p class="inline">· W/ Moon Tooth</p>
+            </div>
 
-       <div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">08.15.14 -</p>
-        <p class="inline">Philadelphia, PA (Show 2/2·</p>
-        <p class="inline">Sound Hole House</a></p>
-        <p class="inline">· W/ APE!, Wasn't Wisn't, Combine, Timbers ·</p>
-      </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">11.14.17 -</p>
+                <p class="inline">Atlanta, GA ·</p>
+                <p class="inline highlight"><a href="https://www.facebook.com/events/2045248928833983/">The Masquerade</a></p>
+                <p class="inline">· W/ Moon Tooth</p>
+            </div>
 
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">11.15.17 -</p>
+                <p class="inline">Chapel Hill, NC ·</p>
+                <p class="inline">Local 506</p>
+                <p class="inline">· W/ Moon Tooth</p>
+            </div>
 
-<div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">08.15.14 -</p>
-        <p class="inline">Philadelphia, PA (Show 1/2) ·</p>
-        <p class="inline">The Trocadero</a></p>
-        <p class="inline">· W/ Civil Pilots, Be Water, Stone Furs, Gin War·</p>
-      </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">11.16.17 -</p>
+                <p class="inline">Amityville, NY ·</p>
+                <p class="inline highlight"><a href="https://www.facebook.com/events/116768882369203/">Amityville Music Hall</a></p>
+                <p class="inline">· W/ Moon Tooth</p>
+            </div>
 
-<div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">07.26.14 -</p>
-        <p class="inline">Brooklyn, NY ·</p>
-        <p class="inline">The Flat</a></p>
-        <p class="inline">· W/ Dead Tenants, Lutkie, Millsted·</p>
-      </div>
-
-<div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">07.16.14 -</p>
-        <p class="inline">Brooklyn, NY ·</p>
-        <p class="inline">Grand Victory</a></p>
-        <p class="inline">· W/ Silent Fangs, Weird Teeth, The Black Black·</p>
-      </div>
-
-      <div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">06.29.14 -</p>
-        <p class="inline">Brooklyn, NY ·</p>
-        <p class="inline">Matchless</a></p>
-        <p class="inline">· W/ Liza Colby Sound, Drella, Paloma Blanco·</p>
-      </div>
-
-      <div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">06.19.14 -</p>
-        <p class="inline">Brooklyn, NY ·</p>
-        <p class="inline">The Acheron</a></p>
-        <p class="inline">· W/ Psychic Teens, Worms·</p>
-      </div>
-
-      <div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">05.29.14 -</p>
-        <p class="inline">Brooklyn, NY ·</p>
-        <p class="inline">Cameo Gallery</a></p>
-        <p class="inline">· EP Release Show W/ Drunken Sufis, Hooks, Eleanor·</p>
-      </div>
-
-      <div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">03.27.14 -</p>
-        <p class="inline">NY, NY ·</p>
-        <p class="inline">Bowery Electric</a></p>
-        <p class="inline">· W/ The Dead Tricks, Sharp Lads, Hessler·</p>
-      </div>
-
-<div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">01.31.14 -</p>
-        <p class="inline">Brooklyn, NY ·</p>
-        <p class="inline">Radio Bushwick</a></p>
-        <p class="inline">· W/ bbigpigg, Robot Death Kites, Dead Tenants·</p>
-      </div>
-
-      <div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">12.15.13 -</p>
-        <p class="inline">Brooklyn, NY ·</p>
-        <p class="inline">The Paperbox</a></p>
-        <p class="inline">· W/ Wet Water, Jinks Spring, Lutkie·</p>
-      </div>
-
-      <div style="display:none" class="showsPageItem showsy all twelve columns">
-        <p class="inline">11.01.13 -</p>
-        <p class="inline">Brooklyn, NY ·</p>
-        <p class="inline">Knitting Factory</a></p>
-        <p class="inline">· W/ Royals, My Uncle Wolf, Alma Mia·</p>
-      </div>
-
-
-  <!-- Shows Page ^       ↓ Contact Body
+            <!-- Upcoming Shows ^       ↓ Past Shows
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+            <div style="display:none;" class="showsy all mainContentHeadingContainer pressHeading twelve columns">
+                <h5 class="mainHeading">Past Shows</h5>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">6.23.17 -</p>
+                <p class="inline">Brooklyn, NY·</p>
+                <p class="inline">Knitting Factory</p>
+                <p class="inline">· W/ Planes Mistaken for Stars, Crushed</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">6.16.17 -</p>
+                <p class="inline">Queens, NY·</p>
+                <p class="inline">Footlight</p>
+                <p class="inline">· W/ Friendship Commanders, Bright Christ, La Peche</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">4.28.17 -</p>
+                <p class="inline">Purchase, NY·</p>
+                <p class="inline">The Stood</p>
+                <p class="inline">· Culture Shock 2017</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">3.8.17 -</p>
+                <p class="inline">Brooklyn, NY·</p>
+                <p class="inline">The Well</a>
+                </p>
+                <p class="inline">· W/ HUSH, Rozamov, Godmaker</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">2.15.17 -</p>
+                <p class="inline">Brooklyn, NY·</p>
+                <p class="inline">Saint Vitus</a>
+                </p>
+                <p class="inline">· W/ STATS, Blind Idiot God</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">1.14.17 -</p>
+                <p class="inline">Queens, NY·</p>
+                <p class="inline">Trans Pecos</a>
+                </p>
+                <p class="inline">· W/ Sperm Donor, Superblonde, Zevious</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">12.13.16 -</p>
+                <p class="inline">Brooklyn, NY·</p>
+                <p class="inline">Saint Vitus</a>
+                </p>
+                <p class="inline">· W/ Jucifer, Sick Shit</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">11.19.16 -</p>
+                <p class="inline">Brooklyn, NY·</p>
+                <p class="inline">The Well</a>
+                </p>
+                <p class="inline">· W/ Flavor Waster, Godmaker, Netherlands</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">11.12.16 -</p>
+                <p class="inline">McClean, VA·</p>
+                <p class="inline">BDU House</a>
+                </p>
+                <p class="inline">· W/ Dear Spring, In Angles, Caustic Casanova,</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">11.11.16 -</p>
+                <p class="inline">Frederick, MD·</p>
+                <p class="inline">Guido's</a>
+                </p>
+                <p class="inline">· W/ Akris, MoBaDi</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">11.06.16 -</p>
+                <p class="inline">New York City, NY·</p>
+                <p class="inline">Bowery Electric</a>
+                </p>
+                <p class="inline">· W/ Earworms (Record Release), Dead Empires, Geometers</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">10.12.16 -</p>
+                <p class="inline">Brooklyn, NY·</p>
+                <p class="inline">Black Bear Bar</a>
+                </p>
+                <p class="inline">· W/ Candiria, Dalek</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">10.01.16 -</p>
+                <p class="inline">Philadelphia, PA ·</p>
+                <p class="inline">Century</a>
+                </p>
+                <p class="inline">· W/ LMI, Hells, Legendary Divorce</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">09.23.16 -</p>
+                <p class="inline">Jersey City, NJ ·</p>
+                <p class="inline">The Citizen</a>
+                </p>
+                <p class="inline">· W/ Black Wail, Hengine</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">09.22.16 -</p>
+                <p class="inline">Purchase, NY ·</p>
+                <p class="inline">WPSR Radio Station</a>
+                </p>
+                <p class="inline">· W/ Toxic Crew</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">09.21.16 -</p>
+                <p class="inline">Wallingford, CT ·</p>
+                <p class="inline">Cherry St. Station</a>
+                </p>
+                <p class="inline">· W/ Huo, Sperm Donor</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">09.20.16 -</p>
+                <p class="inline">Providence, RI ·</p>
+                <p class="inline">Dusk</a>
+                </p>
+                <p class="inline">· W/ Public Policy, Black Oil Incinerator, & Sex Orgy Death Crash</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">09.19.16 -</p>
+                <p class="inline">Boston, MA</p>
+                <p class="inline">O'Briens Pub·</a>
+                </p>
+                <p class="inline">· W/ Oh, Adeona, Aneurysm, Gamma Pope</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">09.18.16 -</p>
+                <p class="inline">Easthampton, PA ·</p>
+                <p class="inline">The Ohm</a>
+                </p>
+                <p class="inline">· W/ Severe Severe, Goblet, & Sunstained</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">09.17.16 -</p>
+                <p class="inline">Oneonta, NY ·</p>
+                <p class="inline">The Spleen</a>
+                </p>
+                <p class="inline">· W/ Gallons of Pork</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">09.16.16 -</p>
+                <p class="inline">Kingston, NY ·</p>
+                <p class="inline">BSP Kingston</a>
+                </p>
+                <p class="inline">· W/ Dead Empires</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">08.28.16 -</p>
+                <p class="inline">Philadelphia, PA ·</p>
+                <p class="inline">Connie's Ric Rac</a>
+                </p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">08.27.16 -</p>
+                <p class="inline">Baltimore, MD·</p>
+                <p class="inline">Baltimore Free Farm</a>
+                </p>
+                <p class="inline">·Mother Moon, Infinite Pizza, Naked Cult</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">08.26.16 -</p>
+                <p class="inline">Easton, PA ·</p>
+                <p class="inline">Mothers Bar and Grill</a>
+                </p>
+                <p class="inline">· Buzz Herd</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">08.25.16 -</p>
+                <p class="inline">Brooklyn, NY ·</p>
+                <p class="inline">Sunnyvale</a>
+                </p>
+                <p class="inline">· Fera Record Release Show W/ Geometers, Spotlights, Bangladeafy</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">08.09.16 -</p>
+                <p class="inline">Brooklyn, NY ·</p>
+                <p class="inline">Gateway</a>
+                </p>
+                <p class="inline">· Body Thief, Sister Helen, Loosie</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">07.14.16 -</p>
+                <p class="inline">Brooklyn, NY ·</p>
+                <p class="inline">The Gutter</a>
+                </p>
+                <p class="inline">· W/ LMI, Sexy Neighbors</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">05.31.16 -</p>
+                <p class="inline">Brooklyn, NY ·</p>
+                <p class="inline">Acheron</a>
+                </p>
+                <p class="inline">· W/ Tiger Flowers, Inaeona, Moon Tooth</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">05.20.16 -</p>
+                <p class="inline">Brooklyn, NY ·</p>
+                <p class="inline">Lucky 13</a>
+                </p>
+                <p class="inline">· W/ LSDeity, Suaka, Witch Fist</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">04.23.16 -</p>
+                <p class="inline">Queens, NY ·</p>
+                <p class="inline">Trans Pecos</a>
+                </p>
+                <p class="inline">· W/ Electric Caves, No Honeymoon, Sad Magic, MACHINEGIRL, Juiceboxxx·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">04.17.16 -</p>
+                <p class="inline">Monclair, NJ ·</p>
+                <p class="inline">The Meatlocker</a>
+                </p>
+                <p class="inline">· W/ Entia, Archie Alone, The Best of the Worst ·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">04.16.16 -</p>
+                <p class="inline">Frederick, MD·</p>
+                <p class="inline">Guidos</a>
+                </p>
+                <p class="inline">· W/ Hepatagua, Fortress, & Slugthrower ·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">04.15.16 -</p>
+                <p class="inline">Baltimore, MD ·</p>
+                <p class="inline">Sidebar</a>
+                </p>
+                <p class="inline">· W/ Infinite Pizza, Neckbreather, Canker Blossom ·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">04.14.16 -</p>
+                <p class="inline">Wind Gap, PA ·</p>
+                <p class="inline">House Show</a>
+                </p>
+                <p class="inline">· W/ Downtrodder, Sick Shit ·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">04.13.16 -</p>
+                <p class="inline">Brooklyn, NY ·</p>
+                <p class="inline">The Acheron</a>
+                </p>
+                <p class="inline">· Lactate, Staghorn, Spotlights ·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">03.25.16 -</p>
+                <p class="inline">Brooklyn, NY ·</p>
+                <p class="inline">Grand Victory</a>
+                </p>
+                <p class="inline">· W/ Iron Gag, Nightcrawler, & Prostitution ·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">1.29.16 -</p>
+                <p class="inline">Brooklyn, NY ·</p>
+                <p class="inline">Lucky 13</a>
+                </p>
+                <p class="inline">· W/ Hepatagua, Harris Hawk, & Shitkill ·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">12.05.15 -</p>
+                <p class="inline">Brooklyn, NY ·</p>
+                <p class="inline">The Acheron</a>
+                </p>
+                <p class="inline">· W/ Moon Tooth, Caustic Casanova, & Lutkie ·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">11.30.15 -</p>
+                <p class="inline">Brooklyn, NY ·</p>
+                <p class="inline">Saint Vitus</a>
+                </p>
+                <p class="inline">· W/ St. Bastard & Prostitution ·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">10.11.15 -</p>
+                <p class="inline">NY, NY ·</p>
+                <p class="inline">Piano's</a>
+                </p>
+                <p class="inline">· W/ Queen Wolf, Drella, & Disparager ·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">10.10.15 -</p>
+                <p class="inline">Wheaton, MD ·</p>
+                <p class="inline">Baxter Building</a>
+                </p>
+                <p class="inline">· W/ Queen Wolf, Polyon, Sideshow Cinema ·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">10.09.15 -</p>
+                <p class="inline">Baltimore, MD ·</p>
+                <p class="inline">Baltimore Free Farm</a>
+                </p>
+                <p class="inline">· W/ Queen Wolf, Mostly Only, & Natural Velvet ·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">09.19.15 -</p>
+                <p class="inline">Brooklyn, NY ·</p>
+                <p class="inline">Don Pedro's</a>
+                </p>
+                <p class="inline">· W/ Fall of the Albatross, Suaka & Moon Tooth ·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">08.14.15 -</p>
+                <p class="inline">New Haven, CT ·</p>
+                <p class="inline">Three Sheets</a>
+                </p>
+                <p class="inline">· W/ Laundry Day & Dead Tenors ·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">08.13.15 -</p>
+                <p class="inline">Boston, MA ·</p>
+                <p class="inline">O'Briens Pub</a>
+                </p>
+                <p class="inline">· W/ Spitting Black, Drones for Queens, and Rum Ham ·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">08.12.15 -</p>
+                <p class="inline">Pawtucket, RI ·</p>
+                <p class="inline">Machines with Magnets</a>
+                </p>
+                <p class="inline">· W/ Snowplows & black oil incinerator ·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">08.11.15 -</p>
+                <p class="inline">Brooklyn, NY ·</p>
+                <p class="inline">Grand Victory</a>
+                </p>
+                <p class="inline">· W/ Servant Girl, Null & Void ·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">08.10.15 -</p>
+                <p class="inline">Silver Spring, MD ·</p>
+                <p class="inline">Joe's Record Shop</a>
+                </p>
+                <p class="inline">· W/ Cave of Swimmers, Caustic Casanova, & The Meer·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">08.09.15 -</p>
+                <p class="inline">Bethlehem, PA ·</p>
+                <p class="inline">Spacefest @ Shankara Vegan Restaurant</a>
+                </p>
+                <p class="inline">· W/ Hell to Pay, Hashgrinder, & Bittered·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">08.08.15 -</p>
+                <p class="inline">Philadelphia, PA ·</p>
+                <p class="inline">Kung Fu Necktie</a>
+                </p>
+                <p class="inline">· W/ APE!, Bombers, & Cacciato ·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">05.15.15 -</p>
+                <p class="inline">Brooklyn, NY ·</p>
+                <p class="inline">Lucky 13</a>
+                </p>
+                <p class="inline">· W/ Marching Teeth, Clover, Intercourse ·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">05.08.15 -</p>
+                <p class="inline">Brooklyn, NY ·</p>
+                <p class="inline">The Gutter</a>
+                </p>
+                <p class="inline">· W/ Video Beast, Servant Girl, Lutkie, Hvllows ·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">05.01.15 -</p>
+                <p class="inline">Brooklyn, NY ·</p>
+                <p class="inline">Legion</a>
+                </p>
+                <p class="inline">· W/ Native Lights, Servant Girl ·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">04.20.15 -</p>
+                <p class="inline">NY, NY ·</p>
+                <p class="inline">Mercury Lounge</a>
+                </p>
+                <p class="inline">· W/ SickWalt ·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">04.10.15 -</p>
+                <p class="inline">Brooklyn, NY ·</p>
+                <p class="inline">Saint Vitus</a>
+                </p>
+                <p class="inline">· W/ Stephen Brodsky, Kosmodemonic ·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">04.04.15 -</p>
+                <p class="inline">NY, NY ·</p>
+                <p class="inline">Studio at Webster Hall</a>
+                </p>
+                <p class="inline">· W/ Barren Womb, GRIZZLOR, Before the End ·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">03.27.15 -</p>
+                <p class="inline">Brooklyn, NY ·</p>
+                <p class="inline">The Flat</a>
+                </p>
+                <p class="inline">· W/ Carved Up, Verses Narrow, Descender ·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">03.08.15 -</p>
+                <p class="inline">NY, NY ·</p>
+                <p class="inline">Studio at Webster Hall</a>
+                </p>
+                <p class="inline">· W/ Self Defense Family, Creative Adult, CUTTERS ·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">02.07.15 -</p>
+                <p class="inline">Brooklyn, NY ·</p>
+                <p class="inline">Grand Victory</a>
+                </p>
+                <p class="inline">· W/ Bombers, Second Still, Wildly ·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">01.31.15 -</p>
+                <p class="inline">Brooklyn, NY ·</p>
+                <p class="inline">Palisades</a>
+                </p>
+                <p class="inline">· W/ Flagland, Unstoppable Death Machines, bbigpigg, Dead Tenants ·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">01.11.15 -</p>
+                <p class="inline">Brooklyn, NY ·</p>
+                <p class="inline">Coco 66</a>
+                </p>
+                <p class="inline">· W/ Trophy Scars, I Revere, Disparager, Graves ·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">11.16.14 -</p>
+                <p class="inline">Brooklyn, NY ·</p>
+                <p class="inline">Black Bear Bar</a>
+                </p>
+                <p class="inline">· W/ YAWN, Duane Barry, Drones for Queens, Drella ·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">10.16.14 -</p>
+                <p class="inline">Brooklyn, NY ·</p>
+                <p class="inline">The Acheron</a>
+                </p>
+                <p class="inline">· W/ NO WAY, Faking, Bardus ·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">10.12.14 -</p>
+                <p class="inline">Brooklyn, NY ·</p>
+                <p class="inline">The Paperbox</a>
+                </p>
+                <p class="inline">· Rocktober Fest ·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">10.06.14 -</p>
+                <p class="inline">NY, NY ·</p>
+                <p class="inline">Pianos</a>
+                </p>
+                <p class="inline">· W/ Kyle Lacy, Rally, Keelan Donovan ·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">09.26.14 -</p>
+                <p class="inline">Brooklyn, NY ·</p>
+                <p class="inline">The Flat</a>
+                </p>
+                <p class="inline">· W/ Weird Teeth, Suaka, Wet Water ·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">09.23.14 -</p>
+                <p class="inline">Brooklyn, NY ·</p>
+                <p class="inline">Saint Vitus</a>
+                </p>
+                <p class="inline">· W/ He is Legend, SoftSpot, Jesse Smith & the Ghost ·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">09.10.14 -</p>
+                <p class="inline">Brooklyn, NY ·</p>
+                <p class="inline">Saint Vitus</a>
+                </p>
+                <p class="inline">· W/ Milsted, YAWN, Duane Barry ·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">08.29.14 -</p>
+                <p class="inline">Brooklyn, NY ·</p>
+                <p class="inline">Pine Box Rock Shop</a>
+                </p>
+                <p class="inline">· W/ Poison Rings, Video Beast ·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">08.23.14 -</p>
+                <p class="inline">Florence, MA ·</p>
+                <p class="inline">13th Floor Lounge</a>
+                </p>
+                <p class="inline">· W/ Dead Tenants, Gracefully Aging, Hippie Soloists ·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">08.22.14 -</p>
+                <p class="inline">Providence, RI ·</p>
+                <p class="inline">Dusk</a>
+                </p>
+                <p class="inline">· W/ Pile, Ask The Dead, 14 Foot 1 ·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">08.20.14 -</p>
+                <p class="inline">NY, NY ·</p>
+                <p class="inline">Cake Shop</a>
+                </p>
+                <p class="inline">· W/ Alien Trilogy, White Rope, D. Gookin ·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">08.18.14 -</p>
+                <p class="inline">Brooklyn, NY ·</p>
+                <p class="inline">Death by Audio</a>
+                </p>
+                <p class="inline">· W/ Melk Belly, Outside World, Matchess ·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">08.16.14 -</p>
+                <p class="inline">McClean, VA ·</p>
+                <p class="inline">BDU House</a>
+                </p>
+                <p class="inline">· W/ Static Scene, Solace Sovay, Lilac Daze, The Obsessives ·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">08.15.14 -</p>
+                <p class="inline">Philadelphia, PA (Show 2/2·</p>
+                <p class="inline">Sound Hole House</a>
+                </p>
+                <p class="inline">· W/ APE!, Wasn't Wisn't, Combine, Timbers ·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">08.15.14 -</p>
+                <p class="inline">Philadelphia, PA (Show 1/2) ·</p>
+                <p class="inline">The Trocadero</a>
+                </p>
+                <p class="inline">· W/ Civil Pilots, Be Water, Stone Furs, Gin War·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">07.26.14 -</p>
+                <p class="inline">Brooklyn, NY ·</p>
+                <p class="inline">The Flat</a>
+                </p>
+                <p class="inline">· W/ Dead Tenants, Lutkie, Millsted·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">07.16.14 -</p>
+                <p class="inline">Brooklyn, NY ·</p>
+                <p class="inline">Grand Victory</a>
+                </p>
+                <p class="inline">· W/ Silent Fangs, Weird Teeth, The Black Black·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">06.29.14 -</p>
+                <p class="inline">Brooklyn, NY ·</p>
+                <p class="inline">Matchless</a>
+                </p>
+                <p class="inline">· W/ Liza Colby Sound, Drella, Paloma Blanco·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">06.19.14 -</p>
+                <p class="inline">Brooklyn, NY ·</p>
+                <p class="inline">The Acheron</a>
+                </p>
+                <p class="inline">· W/ Psychic Teens, Worms·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">05.29.14 -</p>
+                <p class="inline">Brooklyn, NY ·</p>
+                <p class="inline">Cameo Gallery</a>
+                </p>
+                <p class="inline">· EP Release Show W/ Drunken Sufis, Hooks, Eleanor·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">03.27.14 -</p>
+                <p class="inline">NY, NY ·</p>
+                <p class="inline">Bowery Electric</a>
+                </p>
+                <p class="inline">· W/ The Dead Tricks, Sharp Lads, Hessler·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">01.31.14 -</p>
+                <p class="inline">Brooklyn, NY ·</p>
+                <p class="inline">Radio Bushwick</a>
+                </p>
+                <p class="inline">· W/ bbigpigg, Robot Death Kites, Dead Tenants·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">12.15.13 -</p>
+                <p class="inline">Brooklyn, NY ·</p>
+                <p class="inline">The Paperbox</a>
+                </p>
+                <p class="inline">· W/ Wet Water, Jinks Spring, Lutkie·</p>
+            </div>
+            <div style="display:none" class="showsPageItem showsy all twelve columns">
+                <p class="inline">11.01.13 -</p>
+                <p class="inline">Brooklyn, NY ·</p>
+                <p class="inline">Knitting Factory</a>
+                </p>
+                <p class="inline">· W/ Royals, My Uncle Wolf, Alma Mia·</p>
+            </div>
+            <!-- Shows Page ^       ↓ Contact Body
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
+            <div style="display:none" class="contacty all mainContentHeadingContainer bookerMain eight columns">
+                <h5 class="mainHeading">General Inquiries</h5>
+            </div>
+            <div style="display:none" class="contacty all emailContainer eight columns">
+                <p class="bookingEmailText inline">
+                    <a target="_blank" href="mailto:husbandryny@gmail.com">husbandryny@gmail.com</a>
+                </p>
+            </div>
 
-
-
-
-      <div style="display:none"class="contacty all mainContentHeadingContainer bookerMain eight columns">
-        <h5 class="mainHeading">Booking</h5>
-      </div>
-      <div style="display:none"class="contacty all emailContainer eight columns">
-        <p class="bookingEmailText inline highlight">
-          <a target="_blank" href="mailto:husbandryny@gmail.com">husbandryny@gmail.com</a>
-        </p>
-      </div>
-      <div style="display:none"class="contacty all mainContentHeadingContainer bookerMain eight columns">
-        <h5 class="mainHeading">Mailing List  </h5>
-      </div>
-
-      <div style="display:none"class="contacty all mailingListForm noMarginL eight columns">
-        <form action="//nyc.us11.list-manage.com/subscribe/post?u=5653f314f402ed37807b9fcec&amp;id=7862bbdad5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate emailCapture" target="_blank" novalidate>
-          <p id="formNameField">Name</p>
-          <input id="nameForm" name="FNAME" type="text"/>
-
-
-          <p id="formEmailField">Email</p>
-          <input type="email" value="" name="EMAIL" class="email" id="emailForm" placeholder="" required/>
-          <!-- <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div> -->
-        </form>
-
-        <div class="joinButton">
-          <h6 id="joinButton">Join!</h6>
-        </div>
-      </div>
-      
-
-  <!-- Contact Page ^       ↓ Music Body
+            <div style="display:none" class="contacty all mainContentHeadingContainer bookerMain eight columns">
+                <h5 class="mainHeading">Booking</h5>
+            </div>
+            <div style="display:none" class="contacty all emailContainer eight columns">
+                <p class="bookingEmailText inline">
+                    Andy Rice - <a target="_blank" href="mailto:andy@circletalentagency.com">andy@circletalentagency.com</a>
+                </p>
+            </div>
+            
+            <div style="display:none" class="contacty all mainContentHeadingContainer bookerMain eight columns">
+                <h5 class="mainHeading">Mailing List  </h5>
+            </div>
+            <div style="display:none" class="contacty all mailingListForm noMarginL eight columns">
+                <form action="//nyc.us11.list-manage.com/subscribe/post?u=5653f314f402ed37807b9fcec&amp;id=7862bbdad5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate emailCapture" target="_blank" novalidate>
+                    <p id="formNameField">Name</p>
+                    <input id="nameForm" name="FNAME" type="text" />
+                    <p id="formEmailField">Email</p>
+                    <input type="email" value="" name="EMAIL" class="email" id="emailForm" placeholder="" required/>
+                    <!-- <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div> -->
+                </form>
+                <div class="joinButton">
+                    <h6 id="joinButton">Join!</h6>
+                </div>
+            </div>
+            <!-- Contact Page ^       ↓ Music Body
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-
-
-
-
-      <div style="display:none" class="all musicy mainContentHeadingContainer bookerMain eight columns">
-        <h5 class="mainHeading">Music</h5>
-      </div>  
-
-
-      <iframe style="border: 0; width: 350px; height: 470px;" class="all musicy" src="https://bandcamp.com/EmbeddedPlayer/album=3833012425/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="http://husbandryny.bandcamp.com/album/fera">Fera by Husbandry</a></iframe>
-
-
-
-
-
-      <!-- Music Page ^       ↓ Store Body
+            <div style="display:none" class="all musicy mainContentHeadingContainer bookerMain eight columns">
+                <h5 class="mainHeading">Music</h5>
+            </div>
+            <iframe style="border: 0; width: 350px; height: 470px;" class="all musicy" src="https://bandcamp.com/EmbeddedPlayer/album=3833012425/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="http://husbandryny.bandcamp.com/album/fera">Fera by Husbandry</a></iframe>
+            <!-- Music Page ^       ↓ Store Body
       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-
-
-            
-                
-            
-        
-
-      <div style="display:none" class="all storey mainContentHeadingContainer eight columns">
-        <h5 class="mainHeading">Store</h5>
-      </div>
-
-
-      <div style="display:none;" class="storeSection storey all eight columns">
-        <div class="storeItem">
-          <a target="_blank" href="https://husbandryny.bandcamp.com/album/fera"><img src="images/bc2.jpg" class="newSize storeItemPic" /></a>
-          <a target="_blank" href="https://husbandryny.bandcamp.com/album/fera"><h6 class="productDescription">Fera – Bundle 3 - T-shirt, Book and CD</h6></a>
-          <a target="_blank" href="https://husbandryny.bandcamp.com/album/fera"><h6 class="productDescription">$25 USD</h6></a>
+            <div style="display:none" class="all storey mainContentHeadingContainer eight columns">
+                <h5 class="mainHeading">Store</h5>
+            </div>
+            <div style="display:none;" class="storeSection storey all eight columns">
+                <div class="storeItem">
+                    <a target="_blank" href="https://husbandryny.bandcamp.com/album/fera"><img src="images/bc2.jpg" class="newSize storeItemPic" /></a>
+                    <a target="_blank" href="https://husbandryny.bandcamp.com/album/fera"><h6 class="productDescription">Fera – Bundle 3 - T-shirt, Book and CD</h6></a>
+                    <a target="_blank" href="https://husbandryny.bandcamp.com/album/fera"><h6 class="productDescription">$25 USD</h6></a>
+                </div>
+                <div class="storeItem">
+                    <a target="_blank" href="https://husbandryny.bandcamp.com/album/fera"><img src="images/bc1.jpg" class="newSize storeItemPic" /></a>
+                    <a target="_blank" href="https://husbandryny.bandcamp.com/album/fera"><h6 class="productDescription">Fera – Bundle 2 - Fera 140 page book w/ T-shirt</h6></a>
+                    <a target="_blank" href="https://husbandryny.bandcamp.com/album/fera"><h6 class="productDescription">$20 USD</h6></a>
+                </div>
+                <div class="storeItem">
+                    <a target="_blank" href="https://husbandryny.bandcamp.com/album/fera"><img src="images/bc4.jpg" class="newSize storeItemPic" /></a>
+                    <a target="_blank" href="https://husbandryny.bandcamp.com/album/fera"><h6 class="productDescription">Fera – Bundle 1 - Fera 140 page book w/CD</h6></a>
+                    <a target="_blank" href="https://husbandryny.bandcamp.com/album/fera"><h6 class="productDescription">$15 USD</h6></a>
+                </div>
+                <div class="storeItem">
+                    <a target="_blank" href="https://husbandryny.bandcamp.com/album/fera"><img src="images/bc3.jpg" class="newSize storeItemPic" /></a>
+                    <a target="_blank" href="https://husbandryny.bandcamp.com/album/fera"><h6 class="productDescription">Compact disc version of Fera</h6></a>
+                    <a target="_blank" href="https://husbandryny.bandcamp.com/album/fera"><h6 class="productDescription">$10 USD</h6></a>
+                </div>
+                <div class="storeItem">
+                    <a target="_blank" href="https://husbandryny.bandcamp.com/album/fera"><img src="images/bc0.jpg" class="newSize storeItemPic" /></a>
+                    <a target="_blank" href="https://husbandryny.bandcamp.com/album/fera"><h6 class="productDescription">Fera - Fera 140 Page Book</h6></a>
+                    <a target="_blank" href="https://husbandryny.bandcamp.com/album/fera"><h6 class="productDescription">$12 USD</h6></a>
+                </div>
+            </div>
+            <div style="display:none;" class="storeSection storey all eight columns">
+                <div class="storeItem">
+                    <a target="_blank" href="http://husbandryny.bandcamp.com/merch/doubting-thomas-t-shirt"><img src="images/DoubtingThomas_2.jpg" class="storeItemPic" /></a>
+                    <a target="_blank" href="http://husbandryny.bandcamp.com/merch/doubting-thomas-t-shirt"><h6 class="productDescription">Doubting Thomas T-Shirt</h6></a>
+                    <a target="_blank" href="http://husbandryny.bandcamp.com/merch/doubting-thomas-t-shirt"><h6 class="productDescription">$12 USD</h6></a>
+                </div>
+                <div class="storeItem">
+                    <a target="_blank" href="http://husbandryny.bandcamp.com/merch/stitch-reference-t-shirt"><img src="images/WhiteShirt.jpg" class="storeItemPic" /></a>
+                    <a target="_blank" href="http://husbandryny.bandcamp.com/merch/stitch-reference-t-shirt"><h6 class="productDescription">Stitch Reference T-Shirt (White)</h6></a>
+                    <a target="_blank" href="http://husbandryny.bandcamp.com/merch/stitch-reference-t-shirt"><h6 class="productDescription">$12 USD</h6></a>
+                </div>
+                <div class="storeItem">
+                    <a target="_blank" href="https://husbandryny.bandcamp.com/merch/stitch-reference-t-shirt-2"><img src="images/CharcoalShirt.jpg" class="storeItemPic" /></a>
+                    <a target="_blank" href="https://husbandryny.bandcamp.com/merch/stitch-reference-t-shirt-2"><h6 class="productDescription">Stitch Reference T-Shirt (Charcoal)</h6></a>
+                    <a target="_blank" href="https://husbandryny.bandcamp.com/merch/stitch-reference-t-shirt-2"><h6 class="productDescription">$12 USD</h6></a>
+                </div>
+                <div class="storeItem">
+                    <a target="_blank" href="http://husbandryny.bandcamp.com/merch/flag-of-hands-t-shirt"><img src="images/flagofhands.jpg" class="storeItemPic" /></a>
+                    <a target="_blank" href="http://husbandryny.bandcamp.com/merch/flag-of-hands-t-shirt"><h6 class="productDescription">Flag of Hands T-Shirt </h6></a>
+                    <a target="_blank" href="http://husbandryny.bandcamp.com/merch/flag-of-hands-t-shirt"><h6 class="productDescription">$12 USD</h6></a>
+                </div>
+                <div class="storeItem">
+                    <a target="_blank" href="http://husbandryny.bandcamp.com/merch/fera-shadow-t-shirt"><img src="images/shadowshirt.jpg" class="storeItemPic" /></a>
+                    <a target="_blank" href="http://husbandryny.bandcamp.com/merch/fera-shadow-t-shirt"><h6 class="productDescription">Fera Shadow T-Shirt </h6></a>
+                    <a target="_blank" href="http://husbandryny.bandcamp.com/merch/fera-shadow-t-shirt"><h6 class="productDescription">$12 USD</h6></a>
+                </div>
+                <div class="storeItem">
+                    <a target="_blank" href="http://husbandryny.bandcamp.com/merch/fera-shadow-black-tote-bag"><img src="images/shadowtote.jpg" class="storeItemPic" /></a>
+                    <a target="_blank" href="http://husbandryny.bandcamp.com/merch/fera-shadow-black-tote-bag"><h6 class="productDescription">Fera Shadow Black Canvas Tote Bag </h6></a>
+                    <a target="_blank" href="http://husbandryny.bandcamp.com/merch/fera-shadow-black-tote-bag"><h6 class="productDescription">$10 USD</h6></a>
+                </div>
+            </div>
         </div>
-        <div class="storeItem">
-          <a target="_blank" href="https://husbandryny.bandcamp.com/album/fera"><img src="images/bc1.jpg" class="newSize storeItemPic" /></a>
-          <a target="_blank" href="https://husbandryny.bandcamp.com/album/fera"><h6 class="productDescription">Fera – Bundle 2 - Fera 140 page book w/ T-shirt</h6></a>
-          <a target="_blank" href="https://husbandryny.bandcamp.com/album/fera"><h6 class="productDescription">$20 USD</h6></a>
-        </div>
-        <div class="storeItem">
-          <a target="_blank" href="https://husbandryny.bandcamp.com/album/fera"><img src="images/bc4.jpg" class="newSize storeItemPic" /></a>
-          <a target="_blank" href="https://husbandryny.bandcamp.com/album/fera"><h6 class="productDescription">Fera – Bundle 1 - Fera 140 page book w/CD</h6></a>
-          <a target="_blank" href="https://husbandryny.bandcamp.com/album/fera"><h6 class="productDescription">$15 USD</h6></a>
-        </div>
-        <div class="storeItem">
-          <a target="_blank" href="https://husbandryny.bandcamp.com/album/fera"><img src="images/bc3.jpg" class="newSize storeItemPic" /></a>
-          <a target="_blank" href="https://husbandryny.bandcamp.com/album/fera"><h6 class="productDescription">Compact disc version of Fera</h6></a>
-          <a target="_blank" href="https://husbandryny.bandcamp.com/album/fera"><h6 class="productDescription">$10 USD</h6></a>
-        </div>
-
-        <div class="storeItem">
-          <a target="_blank" href="https://husbandryny.bandcamp.com/album/fera"><img src="images/bc0.jpg" class="newSize storeItemPic" /></a>
-          <a target="_blank" href="https://husbandryny.bandcamp.com/album/fera"><h6 class="productDescription">Fera - Fera 140 Page Book</h6></a>
-          <a target="_blank" href="https://husbandryny.bandcamp.com/album/fera"><h6 class="productDescription">$12 USD</h6></a>
-        </div>
-      </div>
-
-      <div style="display:none;" class="storeSection storey all eight columns">
-
-
-        <div class="storeItem">
-          <a target="_blank" href="http://husbandryny.bandcamp.com/merch/doubting-thomas-t-shirt"><img src="images/DoubtingThomas_2.jpg" class="storeItemPic" /></a>
-          <a target="_blank" href="http://husbandryny.bandcamp.com/merch/doubting-thomas-t-shirt"><h6 class="productDescription">Doubting Thomas T-Shirt</h6></a>
-          <a target="_blank" href="http://husbandryny.bandcamp.com/merch/doubting-thomas-t-shirt"><h6 class="productDescription">$12 USD</h6></a>
-        </div>
-
-
-        <div class="storeItem">
-          <a target="_blank" href="http://husbandryny.bandcamp.com/merch/stitch-reference-t-shirt"><img src="images/WhiteShirt.jpg" class="storeItemPic" /></a>
-          <a target="_blank" href="http://husbandryny.bandcamp.com/merch/stitch-reference-t-shirt"><h6 class="productDescription">Stitch Reference T-Shirt (White)</h6></a>
-          <a target="_blank" href="http://husbandryny.bandcamp.com/merch/stitch-reference-t-shirt"><h6 class="productDescription">$12 USD</h6></a>
-        </div>
-
-        <div class="storeItem">
-          <a target="_blank" href="https://husbandryny.bandcamp.com/merch/stitch-reference-t-shirt-2"><img src="images/CharcoalShirt.jpg" class="storeItemPic" /></a>
-          <a target="_blank" href="https://husbandryny.bandcamp.com/merch/stitch-reference-t-shirt-2"><h6 class="productDescription">Stitch Reference T-Shirt (Charcoal)</h6></a>
-          <a target="_blank" href="https://husbandryny.bandcamp.com/merch/stitch-reference-t-shirt-2"><h6 class="productDescription">$12 USD</h6></a>
-        </div>
-
-    <div class="storeItem">
-          <a target="_blank" href="http://husbandryny.bandcamp.com/merch/flag-of-hands-t-shirt"><img src="images/flagofhands.jpg" class="storeItemPic" /></a>
-          <a target="_blank" href="http://husbandryny.bandcamp.com/merch/flag-of-hands-t-shirt"><h6 class="productDescription">Flag of Hands T-Shirt </h6></a>
-          <a target="_blank" href="http://husbandryny.bandcamp.com/merch/flag-of-hands-t-shirt"><h6 class="productDescription">$12 USD</h6></a>
-        </div>
-
-            <div class="storeItem">
-          <a target="_blank" href="http://husbandryny.bandcamp.com/merch/fera-shadow-t-shirt"><img src="images/shadowshirt.jpg" class="storeItemPic" /></a>
-          <a target="_blank" href="http://husbandryny.bandcamp.com/merch/fera-shadow-t-shirt"><h6 class="productDescription">Fera Shadow T-Shirt </h6></a>
-          <a target="_blank" href="http://husbandryny.bandcamp.com/merch/fera-shadow-t-shirt"><h6 class="productDescription">$12 USD</h6></a>
-        </div>
-
-            <div class="storeItem">
-          <a target="_blank" href="http://husbandryny.bandcamp.com/merch/fera-shadow-black-tote-bag"><img src="images/shadowtote.jpg" class="storeItemPic" /></a>
-          <a target="_blank" href="http://husbandryny.bandcamp.com/merch/fera-shadow-black-tote-bag"><h6 class="productDescription">Fera Shadow Black Canvas Tote Bag </h6></a>
-          <a target="_blank" href="http://husbandryny.bandcamp.com/merch/fera-shadow-black-tote-bag"><h6 class="productDescription">$10 USD</h6></a>
-        </div>
-
-      </div>
-
-    </div><!--row-->
-    <div class="footerCopywright">Husbandry © 2015</div>
-  </div><!--container-->
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script type="text/javascript" src="js/jquery.sticky.js"></script>
-<script type="text/javascript" src="js/stickyKit.js"></script>
-  <script>
-
-    $(window).load(function(){
-     $('#masterHeading').sticky({ topSpacing: 0 });
-      //$('#secondaryHeading').sticky({ topSpacing: 130 });
-      //$('#secondaryHeading').stick_in_parent({recalc_every: 1,offset_top: 137, sticky_class: 'offSetStickyShows'});
+        <!--row-->
+        <div class="footerCopywright">Husbandry © 2015</div>
+    </div>
+    <!--container-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.sticky.js"></script>
+    <script type="text/javascript" src="js/stickyKit.js"></script>
+    <script>
+    $(window).load(function() {
+        $('#masterHeading').sticky({ topSpacing: 0 });
+        //$('#secondaryHeading').sticky({ topSpacing: 130 });
+        //$('#secondaryHeading').stick_in_parent({recalc_every: 1,offset_top: 137, sticky_class: 'offSetStickyShows'});
     });
 
     function aboutClick() {
-      $('.all').hide();
-      if ($(window).width() > 807){
-        $('#secondaryHeading').show();
-        console.log("what");
-      }
-      
-      $('.abouty').show();
-      $(document.body).trigger("sticky_kit:recalc");
+        $('.all').hide();
+        if ($(window).width() > 807) {
+            $('#secondaryHeading').show();
+            console.log("what");
+        }
+
+        $('.abouty').show();
+        $(document.body).trigger("sticky_kit:recalc");
     }
 
     function newsClick() {
-      $('.all').hide();
-      if ($(window).width() > 807){
-        $('#secondaryHeading').show();
-        console.log("what");
-      }
-      
-      $('.newsy').show();
-      $(document.body).trigger("sticky_kit:recalc");
+        $('.all').hide();
+        if ($(window).width() > 807) {
+            $('#secondaryHeading').show();
+            console.log("what");
+        }
+
+        $('.newsy').show();
+        $(document.body).trigger("sticky_kit:recalc");
     }
 
     function contactClick() {
-      $('.all').hide();
-      if ($(window).width() > 807){
-        $('#secondaryHeading').show();
-        console.log("what");
-      }
-      
-      $('.contacty').show();
-      $(document.body).trigger("sticky_kit:recalc");
+        $('.all').hide();
+        if ($(window).width() > 807) {
+            $('#secondaryHeading').show();
+            console.log("what");
+        }
+
+        $('.contacty').show();
+        $(document.body).trigger("sticky_kit:recalc");
     }
 
     function musicClick() {
-      $('.all').hide();
-      if ($(window).width() > 807){
-        $('#secondaryHeading').show();
-        console.log("what");
-      }
-      
-      $('.musicy').show();
-      $(document.body).trigger("sticky_kit:recalc");
+        $('.all').hide();
+        if ($(window).width() > 807) {
+            $('#secondaryHeading').show();
+            console.log("what");
+        }
+
+        $('.musicy').show();
+        $(document.body).trigger("sticky_kit:recalc");
     }
 
     function showsClick() {
-      $('.all').hide();
-      if ($(window).width() > 807){
-        $('#secondaryHeading').hide();
-        console.log("what");
-      }
-      
-      $('.showsy').show();
+        $('.all').hide();
+        if ($(window).width() > 807) {
+            $('#secondaryHeading').hide();
+            console.log("what");
+        }
+
+        $('.showsy').show();
     }
 
     function storeClick() {
-      $('.all').hide();
-      if ($(window).width() > 807){
-        $('#secondaryHeading').show();
-        console.log("what");
-      }
-      
-      $('.storey').show();
+        $('.all').hide();
+        if ($(window).width() > 807) {
+            $('#secondaryHeading').show();
+            console.log("what");
+        }
+
+        $('.storey').show();
     }
-    $(".joinButton").click( function() {
+    $(".joinButton").click(function() {
         $('#mc-embedded-subscribe-form').trigger('submit');
     });
-      </script>
-
-
-<!-- End Document
+    </script>
+    <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
 </body>
+
 </html>
